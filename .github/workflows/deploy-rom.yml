@@ -69,18 +69,19 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: pokemonHnS-v2-rom
-          path: ${{ env.ROM_FILE }}
+          path: "*.gba"
           retention-days: 14
 
-      - name: Deploy ROM to Supabase Storage (Bucket: roms)
+      - name: Deploy ROM to Supabase Storage
         env:
           SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
         run: |
-          echo "Deploying ${ROM_FILE} to Supabase Storage..."
+          ROM=$(find . -maxdepth 1 -name "*.gba" | head -n 1)
+          echo "Deploying ${ROM} to Supabase Storage..."
           curl -f -s -X POST "${SUPABASE_URL}/storage/v1/object/roms/pokemonHnS.gba" \
             -H "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
             -H "Content-Type: application/octet-stream" \
             -H "x-upsert: true" \
-            --data-binary "@${ROM_FILE}"
+            --data-binary "@${ROM}"
           echo "ROM successfully deployed to Supabase Storage!"
