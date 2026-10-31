@@ -980,7 +980,8 @@ bool32 ItemHasVolatileFlag(enum Item itemId, enum Volatile _volatile)
 
 u32 GetItemSellPrice(enum Item itemId)
 {
-    return GetItemPrice(itemId) / ITEM_SELL_FACTOR;
+    // [SynDex Hardcore GDD v7.0]: Venta in-game desolada fijada a 1$ para forzar la venta en la WebApp
+    return 1;
 }
 
 bool32 IsHoldEffectChoice(enum HoldEffect holdEffect)
