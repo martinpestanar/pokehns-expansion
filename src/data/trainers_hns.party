@@ -7644,7 +7644,7 @@ Gender: Male
 Music: Hg Boy 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Cyan
+Mugshot: Light Blue
 
 Dewgong
 Level: 49
@@ -7863,7 +7863,7 @@ Gender: Female
 Music: Hg Girl 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Gray
+Mugshot: Yellow
 
 Skarmory
 Level: 44
@@ -8082,7 +8082,7 @@ Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Brown
+Mugshot: Orange
 
 Primeape
 Level: 39
@@ -8301,7 +8301,7 @@ Gender: Female
 Music: Hg Girl 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Dark Blue
+Mugshot: Blue
 
 Dragonair
 Level: 54
@@ -8418,7 +8418,7 @@ Gender: Male
 Music: Hg Boy 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Brown
+Mugshot: Orange
 
 Golem
 Level: 69
@@ -8529,7 +8529,7 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_LTSURGE_HNS ===
 Name: LT. SURGE
 Class: Leader Hns
-Pic: Leader Lt Surge Hns
+Pic: Leader Surge Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
@@ -8766,7 +8766,7 @@ Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Ninetales
 Level: 75
@@ -9058,7 +9058,7 @@ Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Brown
+Mugshot: Orange
 
 Hitmonlee
 Level: 62
@@ -9409,7 +9409,7 @@ Gender: Male
 Music: Hg Boy 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Gyarados
 Level: 66
@@ -9585,12 +9585,12 @@ Level: 60
 === TRAINER_RIVAL_CHIKORITA_1_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Zubat
 Level: 11
@@ -9643,12 +9643,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CHIKORITA_2_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Zubat
 Level: 18
@@ -9701,12 +9701,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CHIKORITA_3_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Golbat
 Level: 26
@@ -9759,12 +9759,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CHIKORITA_4_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Golbat
 Level: 42
@@ -9817,12 +9817,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CHIKORITA_5_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 54
@@ -9875,12 +9875,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CHIKORITA_6_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 66
@@ -9933,12 +9933,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CHIKORITA_7_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 76
@@ -9991,12 +9991,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CYNDAQUIL_1_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Zubat
 Level: 11
@@ -10049,12 +10049,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CYNDAQUIL_2_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Zubat
 Level: 18
@@ -10107,12 +10107,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CYNDAQUIL_3_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Golbat
 Level: 26
@@ -10165,12 +10165,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CYNDAQUIL_4_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Golbat
 Level: 42
@@ -10223,12 +10223,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CYNDAQUIL_5_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 54
@@ -10281,12 +10281,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CYNDAQUIL_6_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 66
@@ -10339,12 +10339,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_CYNDAQUIL_7_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 76
@@ -10397,12 +10397,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_TOTODILE_1_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Zubat
 Level: 11
@@ -10455,12 +10455,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_TOTODILE_2_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Zubat
 Level: 18
@@ -10513,12 +10513,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_TOTODILE_3_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Golbat
 Level: 26
@@ -10571,12 +10571,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_TOTODILE_4_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Golbat
 Level: 42
@@ -10629,12 +10629,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_TOTODILE_5_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 54
@@ -10687,12 +10687,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_TOTODILE_6_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 66
@@ -10745,12 +10745,12 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 === TRAINER_RIVAL_TOTODILE_7_HNS ===
 Name: SILVER
 Class: Rival Hns
-Pic: Rival Silver Hns
+Pic: Silver Hns
 Gender: Male
 Music: Hg Suspicious 1
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Crobat @ Quick Claw
 Level: 76
@@ -10802,13 +10802,13 @@ IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_RED_HNS ===
 Name: RED
-Class: Pkmn Trainer Red Hns
+Class: Pkmn Trainer 1 Hns
 Pic: Red Hns
 Gender: Male
-Music: Hg Boy 1
+Music: Hg Champion
 Double Battle: No
 AI: Check Bad Move / Try To Faint / Check Viability
-Mugshot: Red
+Mugshot: Dark Red
 
 Pikachu @ Light Ball
 Level: 88
