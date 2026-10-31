@@ -46,10 +46,8 @@ jobs:
           key: tools-${{ runner.os }}-${{ hashFiles('tools/*/Makefile', 'tools/**/*.c', 'tools/**/*.cpp', 'tools/**/*.h') }}
 
       - name: Compile ROM (HnS Engine)
-        env:
-          GAME_VERSION: EMERALD
         run: |
-          make -j$(nproc) -O all
+          make hns -j$(nproc) -O
 
       - name: Locate Compiled Binary
         run: |
