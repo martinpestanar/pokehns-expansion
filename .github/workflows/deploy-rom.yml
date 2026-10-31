@@ -1,0 +1,86 @@
+name: Build and Deploy Heart & Soul ROM
+
+on:
+  push:
+    branches:
+      - syndex-v2
+  workflow_dispatch:
+
+jobs:
+  build-and-deploy:
+    name: Compile ROM and Deploy to Supabase
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Install Toolchain & Dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y --no-install-recommends \
+            binutils-arm-none-eabi \
+            gcc-arm-none-eabi \
+            libnewlib-arm-none-eabi \
+            libpng-dev \
+            python3
+
+      - name: Cache Build Tools
+        uses: actions/cache@v4
+        with:
+          path: |
+            tools/bin2c/bin2c
+            tools/gbafix/gbafix
+            tools/gbagfx/gbagfx
+            tools/jsonproc/jsonproc
+            tools/mapjson/mapjson
+            tools/mid2agb/mid2agb
+            tools/preproc/preproc
+            tools/ramscrgen/ramscrgen
+            tools/rsfont/rsfont
+            tools/scaninc/scaninc
+            tools/trainerproc/trainerproc
+            tools/compresSmol/compresSmol
+            tools/compresSmol/compresSmolTilemap
+            tools/wav2agb/wav2agb
+          key: tools-${{ runner.os }}-${{ hashFiles('tools/*/Makefile', 'tools/**/*.c', 'tools/**/*.cpp', 'tools/**/*.h') }}
+
+      - name: Compile ROM (HnS Engine)
+        env:
+          GAME_VERSION: EMERALD
+        run: |
+          make -j$(nproc) -O all
+
+      - name: Locate Compiled Binary
+        run: |
+          if [ -f "pokeemerald.gba" ]; then
+            echo "ROM_FILE=pokeemerald.gba" >> $GITHUB_ENV
+          elif [ -f "pokemonHnS.gba" ]; then
+            echo "ROM_FILE=pokemonHnS.gba" >> $GITHUB_ENV
+          elif [ -f "pokehns.gba" ]; then
+            echo "ROM_FILE=pokehns.gba" >> $GITHUB_ENV
+          else
+            echo "Searching for compiled .gba..."
+            FOUND_ROM=$(find . -maxdepth 2 -name "*.gba" | head -n 1)
+            echo "ROM_FILE=${FOUND_ROM}" >> $GITHUB_ENV
+          fi
+
+      - name: Upload ROM Artifact to GitHub
+        uses: actions/upload-artifact@v4
+        with:
+          name: pokemonHnS-v2-rom
+          path: ${{ env.ROM_FILE }}
+          retention-days: 14
+
+      - name: Deploy ROM to Supabase Storage (Bucket: roms)
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
+        run: |
+          echo "Deploying ${ROM_FILE} to Supabase Storage..."
+          curl -f -s -X POST "${SUPABASE_URL}/storage/v1/object/roms/pokemonHnS.gba" \
+            -H "Authorization: Bearer ${SUPABASE_SERVICE_ROLE_KEY}" \
+            -H "Content-Type: application/octet-stream" \
+            -H "x-upsert: true" \
+            --data-binary "@${ROM_FILE}"
+          echo "ROM successfully deployed to Supabase Storage!"

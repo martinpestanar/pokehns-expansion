@@ -7173,22 +7173,56 @@ Pic: Leader Falkner Hns
 Gender: Male
 Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Light Blue
 
-Pidgey
-Level: 8
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Sand Attack
+Pidgeotto
+Level: 15
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Gust
+- Mud Slap
+- Quick Attack
+- Wing Attack
+
+Swellow
+Level: 15
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
+- Quick Attack
+- Focus Energy
+- Double Team
+
+Pelipper
+Level: 15
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Water Gun
+- Wing Attack
+- Mist
+- Supersonic
+
+Noctowl
+Level: 15
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Confusion
+- Peck
+- Hypnosis
+- Reflect
+
+Fearow
+Level: 15
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Peck
+- Wing Attack
+- Leer
 - Quick Attack
 
-Noctowl @ Sitrus Berry
-Level: 11
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Tackle
-- Mud Slap
-- Peck
+Togekiss @ Sitrus Berry
+Level: 16
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Air Cutter
+- Ancient Power
+- Wish
+- Metronome
 
 === TRAINER_FALKNER_2_HNS ===
 Name: FALKNER
@@ -7253,36 +7287,59 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: BUGSY
 Class: Leader Hns
 Pic: Leader Bugsy Hns
-Gender: Male
+Gender: Female
 Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
-Items: Potion / Potion
 
-Pineco
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Pin Missile
-- Headbutt
-- Rollout
-- Harden
+Butterfree
+Level: 21
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Confusion
+- Gust
+- Stun Spore
+- Spore
 
-Ledian
-Level: 15
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Comet Punch
-- Supersonic
-- Reflect
+Beedrill
+Level: 21
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Twineedle
+- Focus Energy
+- Fury Attack
+- Quick Attack
 
-Scyther @ Berry Juice
-Level: 16
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Ninjask
+Level: 21
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
+- Leech Life
+- Quick Attack
+- Double Team
+
+Armaldo
+Level: 22
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Silver Wind
+- Mud Slap
+- Sand Attack
+
+Scyther @ Silver Powder
+Level: 22
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Quick Attack
 - Fury Cutter
-- U Turn 
+- Aerial Ace
 - Pursuit
+
+Yanmega @ Sitrus Berry
+Level: 23
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Silver Wind
+- Air Cutter
+- Signal Beam
+- Quick Attack
 
 === TRAINER_BUGSY_2_HNS ===
 Name: BUGSY
@@ -7347,36 +7404,59 @@ IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
 Name: WHITNEY
 Class: Leader Hns
 Pic: Leader Whitney Hns
-Gender: Male
-Music: Hg Boy 1
+Gender: Female
+Music: Hg Girl 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Pink
-Items: Super Potion / Potion
 
-Clefairy
-Level: 20
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Headbutt
-- Charm
-- Sweet Kiss
+Clefable
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Metronome
+- Body Slam
+- Attract
+- Psychic
 
-Teddiursa
-Level: 20
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
-- Fury Swipes
-- Fake Tears
-- Lick
+Wigglytuff
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Body Slam
+- Minimize
+- Mimic
+- Defense Curl
+
+Exploud
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hyper Voice
+- Stomp
+- Cross Chop
 - Mud Slap
 
-Miltank @ Sitrus Berry
-Level: 21
-IVs: 2 HP / 2 Atk / 2 Def / 2 SpA / 2 SpD / 2 Spe
+Zangoose
+Level: 28
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Slash
+- Quick Attack
+- Brick Break
+- Swords Dance
+
+Ambipom
+Level: 28
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Scratch
+- Quick Attack
+- Fake Out
+- Brick Break
+
+Miltank @ Lum Berry
+Level: 29
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rollout
+- Milk Drink
 - Attract
 - Stomp
-- Milk Drink
 
 === TRAINER_WHITNEY_2_HNS ===
 Name: WHITNEY
@@ -7444,42 +7524,55 @@ Pic: Leader Morty Hns
 Gender: Male
 Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
-Items: Super Potion / Super Potion
 
 Haunter
-Ability: Levitate
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 33
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
 - Hypnosis
-- Nightmare
-- Curse
+- Dream Eater
 - Night Shade
 
-Stantler
-Level: 23
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Swift
-- Hypnosis
-- Nightmare
-- Leer
-
-Misdreavus
-Level: 24
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Sableye
+Level: 33
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Shadow Ball
-- Pain Split
-- Perish Song
-- Psywave
+- Faint Attack
+- Brick Break
+- Will O Wisp
+
+Banette
+Level: 33
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Will O Wisp
+- Confuse Ray
+- Faint Attack
+
+Dusclops
+Level: 34
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Will O Wisp
+- Night Shade
+- Confuse Ray
+
+Mismagius @ Spell Tag
+Level: 34
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Psychic
+- Will O Wisp
+- Recover
 
 Gengar @ Sitrus Berry
-Ability: Levitate
-Level: 25
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Hypnosis
+Level: 35
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Shadow Ball
-- Mean Look
+- Sludge Bomb
+- Hypnosis
 - Dream Eater
 
 === TRAINER_MORTY_2_HNS ===
@@ -7550,41 +7643,56 @@ Pic: Leader Pryce Hns
 Gender: Male
 Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Light Blue
-Items: Super Potion / Super Potion
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Cyan
 
 Dewgong
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Aqua Ring
-- Aurora Beam
-- Rain Dance
-- Aqua Jet
+Level: 49
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hail
+- Surf
+- Rest
+- Ice Beam
 
-Sneasel
-Level: 32
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Glalie
+Level: 49
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Beam
+- Scary Face
+- Explosion
+- Double Team
+
+Walrein
+Level: 49
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Beam
+- Surf
+- Hail
+- Body Slam
+
+Froslass
+Level: 50
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Beam
+- Shadow Ball
+- Confuse Ray
+- Double Team
+
+Weavile @ Quick Claw
+Level: 50
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Faint Attack
 - Metal Claw
-- Hone Claws
-- Avalanche
+- Quick Attack
+- Swords Dance
 
-Jynx
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ice Punch
-- Psychic
-- Rain Dance
-- Lovely Kiss
-
-Piloswine @ Sitrus Berry
-Level: 33
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Headbutt
+Mamoswine @ Never Melt Ice
+Level: 51
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Blizzard
 - Earthquake
-- Ancient Power
-- Ice Fang
+- Take Down
+- Mud Slap
 
 === TRAINER_PRYCE_2_HNS ===
 Name: PRYCE
@@ -7751,52 +7859,59 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Name: JASMINE
 Class: Leader Hns
 Pic: Leader Jasmine Hns
-Gender: Male
-Music: Hg Boy 1
+Gender: Female
+Music: Hg Girl 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Yellow
-Items: Super Potion / Super Potion
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Gray
 
 Skarmory
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Level: 44
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sandstorm
 - Spikes
-- Drill Peck
-- Swagger
-- Steel Wing
+- Guillotine
+- Double Team
 
-Corsola
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rain Dance
-- Brine
-- Recover
-- Ancient Power
-
-Magneton
-Level: 35
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunderbolt
-- Tri Attack
-- Rain Dance
-- Thunder
-
-Scizor @ Focus Band
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Bullet Punch
-- Metal Claw
-- Agility
-- Swords Dance
-
-Steelix @ Quick Claw
-Level: 36
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Crunch
+Aggron
+Level: 44
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Iron Tail
 - Earthquake
 - Rock Slide
+- Protect
+
+Metang
+Level: 44
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Metal Claw
+- Psychic
+- Swift
+- Steel Wing
+
+Magnezone @ Magnet
+Level: 45
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Metal Claw
+- Thunder Wave
+- Screech
+
+Scizor
+Level: 45
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Metal Claw
+- Silver Wind
+- Quick Attack
+- Swords Dance
+
+Steelix @ Leftovers
+Level: 46
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Iron Tail
+- Earthquake
+- Rock Slide
+- Protect
 
 === TRAINER_JASMINE_2_HNS ===
 Name: JASMINE
@@ -7964,43 +8079,58 @@ Name: CHUCK
 Class: Leader Hns
 Pic: Leader Chuck Hns
 Gender: Male
-Music: Hg Boy 1
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Orange
-Items: Super Potion / Super Potion
-
-Hitmontop
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Triple Kick
-- Rolling Kick
-- Dig
-- Pursuit
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Brown
 
 Primeape
-Level: 29
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Low Kick
-- Karate Chop
-- Ice Punch
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Cross Chop
+- Mach Punch
+- Scary Face
 - Rage
 
-Sudowoodo
-Level: 30
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Rock Slide
-- Wood Hammer
-- Low Kick
-- Faint Attack
+Hitmonlee
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- High Jump Kick
+- Jump Kick
+- Fake Out
+- Brick Break
+
+Hitmonchan
+Level: 39
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fire Punch
+- Ice Punch
+- Thunder Punch
+- Brick Break
+
+Hariyama
+Level: 40
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fake Out
+- Focus Punch
+- Bulk Up
+- Mud Slap
+
+Breloom
+Level: 40
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Spore
+- Cross Chop
+- Bullet Seed
+- Mach Punch
 
 Poliwrath @ Black Belt
-Level: 31
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Hypnosis
-- Mind Reader
-- Surf
+Level: 41
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dynamic Punch
+- Surf
+- Bulk Up
+- Hypnosis
 
 === TRAINER_CHUCK_2_HNS ===
 Name: CHUCK
@@ -8167,52 +8297,59 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 Name: CLAIR
 Class: Leader Hns
 Pic: Leader Clair Hns
-Gender: Male
-Music: Hg Boy 1
+Gender: Female
+Music: Hg Girl 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Blue
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Dark Blue
 
 Dragonair
-Level: 42
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Thunder Wave
-- Thunderbolt
-- Flamethrower
-- Dragon Tail
-
-Gyarados @ Focus Band
-Level: 43
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Bite
-- Waterfall
-- Fly
-- Ice Fang
-
-Lapras @ Chesto Berry
-Level: 43
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Brine
-- Ice Beam
-- Body Slam
-- Rest
-
-Dudunsparce @ Sitrus Berry
-Level: 44
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Glare
-- Ancient Power
-- Rest
-- Poison Jab
-
-Kingdra @ Leftovers
-Level: 45
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Agility
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rain Dance
 - Surf
-- Hyper Beam
-- Dragon Pulse
+- Thunderbolt
+- Thunder Wave
+
+Gyarados
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
+- Waterfall
+- Earthquake
+- Bite
+
+Altaria
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Breath
+- Aerial Ace
+- Dragon Dance
+- Recover
+
+Flygon
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Dragon Claw
+- Silver Wind
+- Double Team
+
+Salamence @ Dragon Fang
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Claw
+- Flamethrower
+- Aerial Ace
+- Dragon Dance
+
+Kingdra @ Sitrus Berry
+Level: 56
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
+- Ice Beam
+- Dragon Breath
+- Dragon Dance
 
 === TRAINER_CLAIR_2_HNS ===
 Name: CLAIR
@@ -8275,475 +8412,467 @@ IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 
 === TRAINER_BROCK_HNS ===
 Name: BROCK
-Class: Leader Kanto Hns
+Class: Leader Hns
 Pic: Leader Brock Hns
 Gender: Male
 Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Orange
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Brown
 
-Golem @ Quick Claw
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Curse
-- Stone Edge
-- Body Slam
-- Earthquake
-
-Aerodactyl @ Hard Stone
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Ancient Power
-- Sky Attack
-- Earthquake
-- Fire Fang
-
-Kabutops @ Scope Lens
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Surf
-- Ancient Power
-- Night Slash
-- Swords Dance
-
-Omastar @ Focus Band
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Ancient Power
-- Ice Beam
-- Surf
-- Toxic
-
-Relicanth @ Hard Stone
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hydro Pump
+Golem
+Level: 69
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rock Slide
-- Curse
-- Thunderbolt
+- Earthquake
+- Explosion
+- Defense Curl
 
-Kleavor @ Quick Claw
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Swords Dance
-- Stone Axe
-- X Scissor
-- Agility
+Steelix
+Level: 69
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Iron Tail
+- Earthquake
+- Rock Slide
+- Protect
+
+Relicanth
+Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
+- Rock Slide
+- Take Down
+- Amnesia
+
+Armaldo
+Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Silver Wind
+- Earthquake
+- Sand Attack
+
+Rhyperior
+Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Rock Slide
+- Mud Slap
+- Protect
+
+Tyranitar @ Sitrus Berry
+Level: 71
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Crunch
+- Dragon Breath
 
 === TRAINER_MISTY_HNS ===
 Name: MISTY
-Class: Leader Kanto Hns
+Class: Leader Hns
 Pic: Leader Misty Hns
-Gender: Male
-Music: Hg Boy 1
+Gender: Female
+Music: Hg Girl 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Light Blue
-Items: Full Restore / Full Restore
 
 Golduck
-Level: 62
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Aqua Tail
+Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
 - Psychic
-- Wonder Room
-- Cross Chop
-
-Quagsire @ Quick Claw
-Level: 62
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Muddy Water
-- Amnesia
-- Earthquake
-- Rain Dance
-
-Vaporeon @ Leftovers
-Level: 61
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hydro Pump
 - Ice Beam
-- Acid Armor
-- Shadow Ball
+- Confusion
+
+Quagsire
+Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
+- Earthquake
+- Recover
+- Defense Curl
+
+Lapras
+Level: 71
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
+- Ice Beam
+- Body Slam
+- Confuse Ray
+
+Ludicolo
+Level: 71
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
+- Giga Drain
+- Fake Out
+- Double Team
 
 Milotic
-Level: 61
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hydro Pump
+Level: 71
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
 - Ice Beam
-- Rest
-- Sleep Talk
+- Recover
+- Confuse Ray
 
-Lapras @ Never Melt Ice
-Level: 62
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hydro Pump
-- Ice Beam
-- Rain Dance
-- Reflect
-
-Starmie @ Mystic Water
-Level: 63
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Starmie @ Leftovers
+Level: 72
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Surf
 - Psychic
-- Recover
 - Thunderbolt
+- Ice Beam
 
 === TRAINER_LTSURGE_HNS ===
-Name: LTSURGE
-Class: Leader Kanto Hns
-Pic: Leader Surge Hns
+Name: LT. SURGE
+Class: Leader Hns
+Pic: Leader Lt Surge Hns
 Gender: Male
-Music: Hg Boy 1
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
 
-Electrode @ Focus Band
-Level: 57
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shock Wave
-- Rain Dance
+Raichu
+Level: 71
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Quick Attack
+- Thunder Wave
+- Double Team
+
+Magneton
+Level: 71
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
 - Thunder Wave
 - Explosion
+- Screech
 
-Magnezone
-Level: 59
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Thunder
-- Reflect
-- Rain Dance
-- Double Edge
-
-Lanturn @ Leftovers
-Level: 58
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Ion Deluge
-- Hydro Pump
-- Discharge
-- Confuse ray
+Electrode
+Level: 72
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Explosion
+- Screech
+- Double Team
 
 Manectric
-Level: 58
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Wild Charge
-- Charge
-- Crunch
-- Electric Terrain
-
-Electivire @ Scope Lens
-Level: 59
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level: 72
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Thunderbolt
+- Quick Attack
+- Scary Face
+- Double Team
+
+Magnezone
+Level: 72
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Metal Claw
+- Thunder Wave
+- Screech
+
+Electivire @ Magnet
+Level: 73
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Cross Chop
 - Fire Punch
 - Ice Punch
-- Submission
-
-Raichu @ Magnet
-Level: 60
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Thunder
-- Rain Dance
-- Body Slam
-- Surf
 
 === TRAINER_ERIKA_HNS ===
 Name: ERIKA
-Class: Leader Kanto Hns
+Class: Leader Hns
 Pic: Leader Erika Hns
-Gender: Male
-Music: Hg Boy 1
+Gender: Female
+Music: Hg Girl 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Green
-Items: Full Restore / Full Restore
 
-Jumpluff @ Focus Band
-Level: 61
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Acrobatics
-- U Turn
-- Sleep Powder
-- Leech Seed
-
-Roserade
-Level: 60
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Bellossom
+Level: 72
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Giga Drain
+- Stun Spore
 - Synthesis
-- Grass Whistle
-- Toxic
-- Petal Dance
+- Double Team
+
+Victreebel
+Level: 72
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Giga Drain
+- Stun Spore
+- Synthesis
+
+Shiftry
+Level: 73
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Giga Drain
+- Faint Attack
+- Fake Out
+- Double Team
+
+Cradily
+Level: 73
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Giga Drain
+- Recover
+- Defense Curl
 
 Tangrowth
-Level: 60
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Power Whip
-- Wring Out
-- Grassy Terrain
-- Tickle
-
-Venusaur @ Leftovers
-Level: 61
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Sunny Day
-- Solar Beam
+Level: 73
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Giga Drain
 - Sludge Bomb
-- Sleep Powder
+- Synthesis
+- Amnesia
 
-Victreebel @ Poison Barb
-Level: 62
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Roserade @ Miracle Seed
+Level: 74
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
-- Leaf Blade
-- Swords Dance
-- Sleep Powder
-
-Bellossom @ Miracle Seed
-Level: 62
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Petal Blizzard
-- Quiver Dance
+- Giga Drain
 - Stun Spore
-- Attract
+- Synthesis
 
 === TRAINER_SABRINA_HNS ===
 Name: SABRINA
-Class: Leader Kanto Hns
+Class: Leader Hns
 Pic: Leader Sabrina Hns
-Gender: Male
-Music: Hg Boy 1
+Gender: Female
+Music: Hg Girl 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Pink
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Purple
 
-Mr Mime @ Quick Claw
-Level: 65
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Magical Leaf
+Mr Mime
+Level: 74
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
-- Substitute
+- Light Screen
 - Reflect
-
-Jynx
-Level: 64
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Psychic
-- Ice Beam
-- Lovely Kiss
-- Grass Knot
-
-Slowbro @ Chesto Berry
-Level: 64
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Rest
-- Sleep Talk
-- Submission
-- Surf
-
-Wobbuffet @ Leftovers
-Level: 64
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Mirror Coat
-- Counter
-- Safeguard
-- Destiny Bond
+- Mimic
 
 Espeon
-Level: 65
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Level: 74
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
+- Confuse Ray
 - Morning Sun
-- Future Sight
-- Power Gem
+- Quick Attack
 
-Alakazam @ Twisted Spoon
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Shadow Ball
+Claydol
+Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
+- Earthquake
+- Rock Slide
+- Defense Curl
+
+Metagross
+Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Metal Claw
+- Psychic
+- Earthquake
+- Protect
+
+Gallade
+Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic
+- Cross Chop
+- Swords Dance
+- Ancient Power
+
+Alakazam @ Sitrus Berry
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic
+- Shadow Ball
 - Recover
-- Calm Mind
+- Double Team
 
 === TRAINER_JANINE_HNS ===
 Name: JANINE
-Class: Leader Kanto Hns
+Class: Leader Hns
 Pic: Leader Janine Hns
-Gender: Male
-Music: Hg Boy 1
+Gender: Female
+Music: Hg Girl 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
-Items: Full Restore / Full Restore
 
-Weezing @ Leftovers
-Level: 63
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
+Ariados
+Level: 73
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
-- Flamethrower
-- Belch
-- Amnesia
+- Twineedle
+- Confuse Ray
+- Spider Web
+
+Weezing
+Level: 73
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Explosion
+- Confuse Ray
+- Defense Curl
+
+Seviper
+Level: 74
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Faint Attack
+- Confuse Ray
+- Double Team
+
+Roserade
+Level: 74
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Giga Drain
+- Stun Spore
+- Synthesis
 
 Muk
-Level: 62
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Minimize
-- Gunk Shot
-- Toxic
+Level: 74
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
 - Acid Armor
-
-Swalot
-Level: 61
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Swallow
-- Stockpile
-- Amnesia
-- Spit Up
-
-Nidoqueen @ Quick Claw
-Level: 62
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Earthquake
-- Cross Poison
-- Thunder
-- Superpower
-
-Crobat
-Level: 63
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Air Slash
-- Venoshock
+- Minimize
 - Toxic
+
+Crobat @ Quick Claw
+Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
 - Confuse Ray
-
-Venomoth @ Bright Powder
-Level: 64
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Signal Beam
-- Poison Fang
-- Toxic
-- Double Team
+- Leech Life
 
 === TRAINER_BLAINE_HNS ===
 Name: BLAINE
-Class: Leader Kanto Hns
+Class: Leader Hns
 Pic: Leader Blaine Hns
 Gender: Male
-Music: Hg Boy 1
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Rapidash @ Quick Claw
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Bounce
+Ninetales
+Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sunny Day
-- Flare Blitz
-- Solar Beam
-
-Magmortar @ Sitrus Berry
-Level: 65
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Thunder Punch
-- Fire Blast
-- Psychic
-- Confuse Ray
-
-Houndoom @ Miracle Seed
-Level: 66
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Fire Blast
-- Sunny Day
-- Thunder Fang
-- Crunch
-
-Magcargo @ Leftovers
-Level: 65
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
 - Flamethrower
-- Recover
-- Amnesia
-- Hypnosis
+- Confuse Ray
+- Will O Wisp
 
-Torkoal @ White Herb
-Level: 67
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Curse
-- Iron Defense
-- Withdraw
-- Heat Wave
+Rapidash
+Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Stomp
+- Quick Attack
+- Double Team
 
-Camerupt @ Charcoal
-Level: 67
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Earth Power
-- Eruption
-- Yawn
+Torkoal
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Mud Slap
+- Defense Curl
 - Amnesia
+
+Camerupt
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Earthquake
+- Rock Slide
+- Protect
+
+Houndoom
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Faint Attack
+- Sludge Bomb
+- Will O Wisp
+
+Magmortar @ Charcoal
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fire Blast
+- Flamethrower
+- Thunderbolt
+- Confuse Ray
 
 === TRAINER_BLUE_HNS ===
 Name: BLUE
-Class: Leader Kanto Hns
+Class: Leader Hns
 Pic: Leader Blue Hns
 Gender: Male
 Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Blue
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Light Blue
 
-Rhyperior @ Sitrus Berry
-Level: 69
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Drill Run
-- Stone Edge
-- Rest
-- Toxic
+Pidgeot
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Aerial Ace
+- Quick Attack
+- Swords Dance
+- Double Team
 
-Pidgeot @ Sharp Beak
-Level: 68
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Hurricane
-- Giga Impact
-- Air Slash
-- Feather Dance
+Alakazam
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic
+- Shadow Ball
+- Recover
+- Double Team
 
-Machamp @ Scope Lens
-Level: 67
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Cross Chop
+Rhyperior
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Rock Slide
+- Mud Slap
+- Protect
+
+Gyarados
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
+- Earthquake
+- Waterfall
+- Bite
+
+Arcanine
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Quick Attack
+- Crunch
+- Confuse Ray
+
+Tyranitar @ Leftovers
+Level: 79
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rock Slide
 - Earthquake
-- Dual Chop
-
-Exeggutor @ Leftovers
-Level: 68
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Leech Seed
-- Trick Room
-- Psychic
-- Seed Bomb
-
-Tyranitar @ Focus Band
-Level: 68
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Stone Edge
-- Payback
 - Crunch
-- Thunder Fang
-
-Arcanine @ Silk Scarf
-Level: 69
-IVs: 24 HP / 24 Atk / 24 Def / 24 SpA / 24 SpD / 24 Spe
-- Flamethrower
-- Curse
-- Crunch
-- Extreme Speed
+- Dragon Breath
 
 === TRAINER_BLUE_2_HNS ===
 Name: BLUE
@@ -8809,51 +8938,58 @@ Name: WILL
 Class: Elite Four Hns
 Pic: Elite Four Will Hns
 Gender: Male
-Music: Hg Elite Four
+Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Pink
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Purple
 
-Girafarig
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Zen Headbutt
-- Nasty Plot
-- Agility
-- Baton Pass
+Xatu
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic
+- Confuse Ray
+- Recover
+- Aerial Ace
 
-Slowking
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Amnesia
-- Fire Punch
+Jynx
+Level: 58
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ice Beam
+- Psychic
+- Lovely Kiss
+- Reflect
+
+Slowbro
+Level: 59
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Surf
 - Psychic
+- Rest
+- Amnesia
 
-Espeon
-Level: 48
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Exeggutor
+Level: 59
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
-- Shadow Ball
-- Reflect
-- Headbutt
+- Solar Beam
+- Leech Seed
+- Light Screen
 
-Slowbro @ Quick Claw
-Level: 49
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Curse
-- Rock Smash
-- Body Slam
-- Zen Headbutt
-
-Xatu @ Twisted Spoon
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Air Slash
-- Recover
-- Confuse Ray
+Gardevoir
+Level: 59
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Psychic
+- Thunderbolt
+- Calm Mind
+- Double Team
+
+Gallade @ Sitrus Berry
+Level: 60
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Psychic
+- Cross Chop
+- Swords Dance
+- Ancient Power
 
 === TRAINER_WILL_2_HNS ===
 Name: WILL
@@ -8919,51 +9055,58 @@ Name: BRUNO
 Class: Elite Four Hns
 Pic: Elite Four Bruno Hns
 Gender: Male
-Music: Hg Elite Four
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Orange
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Brown
 
-Hitmonchan @ Scope Lens
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Close Combat
-- Pursuit
-- Dizzy Punch
+Hitmonlee
+Level: 62
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- High Jump Kick
+- Jump Kick
+- Fake Out
+- Brick Break
+
+Hitmonchan
+Level: 62
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fire Punch
+- Ice Punch
 - Thunder Punch
+- Brick Break
 
-Heracross
-Level: 52
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Close Combat
-- Megahorn
-- Take Down
+Hitmontop
+Level: 63
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Cross Chop
+- Rapid Spin
+- Quick Attack
+- Double Team
+
+Hariyama
+Level: 63
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Fake Out
+- Focus Punch
+- Bulk Up
 - Earthquake
 
-Hitmonlee @ Silk Scarf
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blaze Kick
-- Meditate
-- Reversal
-- Hi Jump Kick
-
-Steelix
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Crunch
-- Earthquake
-- Stone Edge
-- Iron Tail
+Medicham
+Level: 63
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- High Jump Kick
+- Psychic
+- Bulk Up
+- Recover
 
 Machamp @ Black Belt
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Rock Slide
-- Fire Punch
-- Vital Throw
+Level: 64
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Cross Chop
+- Earthquake
+- Rock Slide
+- Bulk Up
 
 === TRAINER_BRUNO_2_HNS ===
 Name: BRUNO
@@ -9028,52 +9171,59 @@ IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 Name: KAREN
 Class: Elite Four Hns
 Pic: Elite Four Karen Hns
-Gender: Male
-Music: Hg Elite Four
+Gender: Female
+Music: Hg Girl 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Yellow
-Items: Full Restore / Full Restore
 
-Umbreon @ Sitrus Berry
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Umbreon
+Level: 64
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Faint Attack
+- Confuse Ray
+- Moonlight
 - Double Team
-- Baton Pass
+
+Vileplume
+Level: 64
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Petal Dance
+- Sleep Powder
 - Moonlight
 
-Gengar
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Shadow Ball
-- Hypnosis
-- Dream Eater
-- Confuse Ray
-
-Vileplume @ Leftovers
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sleep Powder
-- Giga Drain
-- Leech Seed
-- Substitute
-
-Honchkrow @ Sharp Beak
-Level: 53
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Air Slash
+Absol
+Level: 65
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Faint Attack
-- Steel Wing
-- Haze
+- Slash
+- Swords Dance
+- Quick Attack
 
-Houndoom @ Black Glasses
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Shiftry
+Level: 65
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Giga Drain
+- Fake Out
+- Double Team
+
+Honchkrow
+Level: 65
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Aerial Ace
+- Confuse Ray
+- Swords Dance
+
+Houndoom @ Charcoal
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flamethrower
-- Crunch
-- Iron Tail
-- Reversal
+- Faint Attack
+- Sludge Bomb
+- Will O Wisp
 
 === TRAINER_KAREN_2_HNS ===
 Name: KAREN
@@ -9139,51 +9289,58 @@ Name: KOGA
 Class: Elite Four Hns
 Pic: Elite Four Koga Hns
 Gender: Male
-Music: Hg Elite Four
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
+AI: Check Bad Move / Try To Faint / Check Viability
 Mugshot: Purple
-Items: Full Restore / Full Restore
 
-Ariados @ Kings Rock
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Megahorn
-- Giga Drain
-- Double Team
-- Toxic
-
-Qwilfish
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Aqua Tail
-- Toxic
-- Protect
-- Poison Jab
-
-Muk @ Leftovers
-Level: 50
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Minimize
-- Fire Blast
-- Gunk Shot
-- Toxic
-
-Venomoth
-Level: 51
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Leech Life
-- Psychic
-- Poison Fang
-- Sleep Powder
-
-Crobat @ Bright Powder
-Level: 52
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Double Team
-- Toxic
-- Bite
+Ariados
+Level: 60
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Twineedle
 - Confuse Ray
+- Spider Web
+
+Muk
+Level: 60
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Acid Armor
+- Minimize
+- Toxic
+
+Forretress
+Level: 61
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Spikes
+- Explosion
+- Protect
+- Harden
+
+Swalot
+Level: 61
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Acid Armor
+- Recover
+- Mud Slap
+
+Roserade
+Level: 61
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Giga Drain
+- Stun Spore
+- Synthesis
+
+Crobat @ Quick Claw
+Level: 62
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
+- Confuse Ray
+- Leech Life
 
 === TRAINER_KOGA_2_HNS ===
 Name: KOGA
@@ -9249,59 +9406,58 @@ Name: LANCE
 Class: Champion Hns
 Pic: Champion Lance Hns
 Gender: Male
-Music: Hg Champion
+Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
-Items: Full Restore / Full Restore
-Mugshot: Blue
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Gyarados @ Leftovers
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Waterfall
-- Dragon Dance
-- Hyper Beam
+Gyarados
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
 - Earthquake
+- Waterfall
+- Bite
 
-Dragonite @ Sitrus Berry
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Blizzard
-- Fire Blast
-- Thunder
-- Extreme Speed
-
-Charizard @ Charcoal
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Charizard
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flamethrower
-- Wing Attack
-- Double Team
-- Steel Wing
-
-Dragonite
-Level: 55
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Bounce
-- Dragon Claw
-- Waterfall
-- Dragon Dance
-
-Aerodactyl @ Silk Scarf
-Level: 54
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Aerial Ace
-- Rock Slide
-- Hyper Beam
+- Slash
 - Earthquake
 
+Aerodactyl
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Aerial Ace
+- Earthquake
+- Double Team
+
+Altaria
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Breath
+- Aerial Ace
+- Dragon Dance
+- Recover
+
+Salamence
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Claw
+- Flamethrower
+- Aerial Ace
+- Dragon Dance
+
 Dragonite @ Sitrus Berry
-Level: 56
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Thunder
-- Safeguard
-- Outrage
-- Hyper Beam
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Claw
+- Flamethrower
+- Thunderbolt
+- Ice Beam
 
 === TRAINER_LANCE_2_HNS ===
 Name: LANCE
@@ -9427,1022 +9583,1280 @@ Level: 60
 - Hyper Beam
 
 === TRAINER_RIVAL_CHIKORITA_1_HNS ===
-Name: ???
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Chikorita
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Zubat
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leech Life
+- Supersonic
+- Confuse Ray
+- Bite
+
+Gastly
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lick
+- Hypnosis
+- Spite
+- Night Shade
+
+Sneasel
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Scratch
+- Leer
+- Bite
+
+Magnemite
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunder Shock
+- Thunder Wave
+- Supersonic
+- Double Team
+
+Larvitar
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bite
+- Sandstorm
+- Rock Throw
+- Leer
+
+Chikorita @ Sitrus Berry
+Level: 12
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Synthesis
+- Growl
+- Leech Seed
+- Light Screen
 
 === TRAINER_RIVAL_CHIKORITA_2_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Potion
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
 Zubat
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Absorb
+Level: 18
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
+- Bite
+- Confuse Ray
+- Toxic
+
+Haunter
+Level: 18
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Hypnosis
+- Curse
+- Night Shade
+
+Sneasel
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Quick Attack
+- Icy Wind
+- Leer
+
+Magneton
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Thunder Wave
 - Supersonic
-- Poison Sting
-- Astonish
+- Screech
 
 Larvitar
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
 - Bite
-- Rock Throw
-- Screech
 - Sandstorm
+- Scary Face
 
-Bayleef
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Razor Leaf
+Bayleef @ Sitrus Berry
+Level: 20
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Magical Leaf
+- Leech Seed
 - Reflect
-- Poison Powder
-- Tackle
+- Body Slam
 
 === TRAINER_RIVAL_CHIKORITA_3_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Super Potion
-
-Larvitar
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Rock Throw
-- Screech
-- Sandstorm
-
-Remoraid
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bubble Beam
-- Aurora Beam
-- Psybeam
-- Lock On
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
 Golbat
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
+Level: 26
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
+- Sludge Bomb
 - Confuse Ray
-- Poison Sting
-- Air Cutter
+- Bite
 
-Bayleef
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Mega Drain
-- Magical Leaf
-- Tackle
+Haunter
+Level: 26
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Hypnosis
+- Dream Eater
+- Confuse Ray
+
+Sneasel
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Slash
+- Icy Wind
+- Swords Dance
+
+Magneton
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Thunder Wave
+- Metal Claw
+- Screech
+
+Pupitar
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Sandstorm
+- Scary Face
+
+Bayleef @ Sitrus Berry
+Level: 28
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
 - Leech Seed
+- Light Screen
+- Body Slam
 
 === TRAINER_RIVAL_CHIKORITA_4_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Hyper Potion
-
-Pupitar
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thrash
-- Rock Slide
-- Screech
-- Bite
-
-Houndoom
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Iron Tail
-- Bite
-- Nasty Plot
-
-Octillery
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Octazooka
-- Psybeam
-- Aurora Beam
-- Signal Beam
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
 Golbat
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Poison Fang
-- Double Team
+Level: 42
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
 - Confuse Ray
-- Air Cutter
+- Leech Life
 
-Meganium
-Level: 40
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Synthesis
-- Magical Leaf
-- Sunny Day
-- Body Slam
+Gengar
+Level: 42
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Sludge Bomb
+- Hypnosis
+- Thunderbolt
+
+Weavile @ Quick Claw
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Ice Beam
+- Swords Dance
+- Brick Break
+
+Magnezone @ Magnet
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Metal Claw
+- Thunder Wave
+- Screech
+
+Pupitar
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Sandstorm
+- Dragon Dance
+
+Meganium @ Sitrus Berry
+Level: 44
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
+- Sludge Bomb
+- Leech Seed
+- Light Screen
 
 === TRAINER_RIVAL_CHIKORITA_5_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Hyper Potion
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Ursaring @ Chesto Berry
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Slash
-- Faint Attack
-- Rock Smash
-- Rest
-
-Golbat
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Venoshock
+Crobat @ Quick Claw
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
 - Aerial Ace
-- Double Team
 - Confuse Ray
+- Toxic
 
-Octillery @ Quick Claw
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Surf
+Gengar
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Destiny Bond
+
+Weavile @ Sitrus Berry
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
 - Ice Beam
-- Psybeam
-- Signal Beam
+- Swords Dance
+- Brick Break
 
-Houndoom
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Iron Tail
-- Crunch
-- Sunny Day
+Magnezone @ Magnet
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Metal Claw
+- Thunder Wave
+- Reflect
 
-Meganium @ Miracle Seed
-Level: 47
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Play Rough
-- Petal Dance
-- Petal Blizzard
-- Poison Powder
-
-Tyranitar
-Level: 48
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Crunch
-- Earthquake
+Tyranitar @ Leftovers
+Level: 56
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rock Slide
-- Fire Fang
+- Earthquake
+- Sandstorm
+- Crunch
+
+Meganium @ Sitrus Berry
+Level: 56
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
+- Sludge Bomb
+- Recover
+- Bulk Up
 
 === TRAINER_RIVAL_CHIKORITA_6_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Ursaluna Bloodmoon @ Chesto Berry
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hammer Arm
-- Moonblast
-- Ancient Power
-- Rest
+Crobat @ Quick Claw
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
+- Confuse Ray
+- Leech Life
 
-Crobat @ Leftovers
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Air Slash
-- Venoshock
-- Dark Pulse
-- Facade
+Gengar
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Destiny Bond
 
-Octillery @ Never Melt Ice
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Ice Beam
-- Psybeam
-- Signal Beam
-
-Houndoom @ Charcoal
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Iron Tail
-- Crunch
-- Sunny Day
-
-Meganium @ Miracle Seed
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Synthesis
-- MoonBlast
-- Petal Blizzard
-- Body Slam
-
-Tyranitar @ Quick Claw
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Crunch
+Ursaluna @ Black Belt
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Earthquake
-- Stone Edge
-- Fire Fang
+- Slash
+- Bulk Up
+- Rock Slide
+
+Electivire @ Magnet
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Cross Chop
+- Fire Punch
+- Ice Punch
+
+Tyranitar @ Leftovers
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Dragon Dance
+- Crunch
+
+Meganium @ Sitrus Berry
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
+- Sludge Bomb
+- Recover
+- Bulk Up
 
 === TRAINER_RIVAL_CHIKORITA_7_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Ursaluna Bloodmoon @ Chesto Berry
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hammer Arm
-- Moonblast
-- Ancient Power
-- Rest
+Crobat @ Quick Claw
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
+- Confuse Ray
+- Toxic
 
-Crobat @ Leftovers
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Air Slash
-- Venoshock
-- Dark Pulse
-- Facade
+Gengar
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Sludge Bomb
 
-Octillery @ Never Melt Ice
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Ice Beam
-- Psybeam
-- Signal Beam
-
-Houndoom @ Charcoal
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Iron Tail
-- Crunch
-- Sunny Day
-
-Meganium @ Miracle Seed
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Reflect
-- Giga Drain
-- Solar Beam
-- Body Slam
-
-Tyranitar @ Quick Claw
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Crunch
+Ursaluna @ Leftovers
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Earthquake
-- Stone Edge
-- Fire Fang
+- Bulk Up
+- Rock Slide
+- Hyper Voice
+
+Salamence @ Dragon Fang
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Claw
+- Flamethrower
+- Earthquake
+- Dragon Dance
+
+Tyranitar @ Leftovers
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Crunch
+- Sandstorm
+
+Meganium @ Lum Berry
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Solar Beam
+- Sludge Bomb
+- Recover
+- Bulk Up
 
 === TRAINER_RIVAL_CYNDAQUIL_1_HNS ===
-Name: ???
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Cyndaquil
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Zubat
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leech Life
+- Supersonic
+- Confuse Ray
+- Bite
+
+Gastly
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lick
+- Hypnosis
+- Spite
+- Night Shade
+
+Sneasel
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Scratch
+- Leer
+- Bite
+
+Magnemite
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunder Shock
+- Thunder Wave
+- Supersonic
+- Double Team
+
+Larvitar
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bite
+- Sandstorm
+- Rock Throw
+- Leer
+
+Cyndaquil @ Sitrus Berry
+Level: 12
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Ember
+- Quick Attack
+- Smokescreen
+- Leer
 
 === TRAINER_RIVAL_CYNDAQUIL_2_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Potion
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
 Zubat
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Absorb
-- Supersonic
-- Poison Sting
-- Astonish
-
-Larvitar
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Rock Throw
-- Screech
-- Sandstorm
-
-Quilava
 Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Leer
-- Smokescreen
-- Ember
-- Tackle
-
-=== TRAINER_RIVAL_CYNDAQUIL_3_HNS ===
-Name: {B_RIVAL_NAME}
-Class: Rival Hns
-Pic: Silver Hns
-Gender: Male
-Music: Silver
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Super Potion
-
-Larvitar
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Rock Throw
-- Screech
-- Sandstorm
-
-Weepinbell
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Razor Leaf
-- Growth
-- Sleep Powder
-- Stun Spore
-
-Golbat
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
 - Bite
 - Confuse Ray
-- Poison Sting
-- Air Cutter
+- Toxic
 
-Quilava
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Flame Wheel
-- Dig
-- Quick Attack
-- Smokescreen
+Haunter
+Level: 18
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Hypnosis
+- Curse
+- Night Shade
 
-=== TRAINER_RIVAL_CYNDAQUIL_4_HNS ===
-Name: {B_RIVAL_NAME}
-Class: Rival Hns
-Pic: Silver Hns
-Gender: Male
-Music: Silver
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Super Potion
-
-Pupitar
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thrash
-- Rock Slide
-- Screech
-- Bite
-
-Victreebel
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sludge
-- Razor Leaf
-- Sleep Powder
-- Growth
-
-Octillery
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Octazooka
-- Psybeam
-- Aurora Beam
-- Signal Beam
-
-Golbat
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Poison Fang
-- Double Team
-- Confuse Ray
-- Air Cutter
-
-Typhlosion
-Level: 40
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thunder Punch
-- Flamethrower
-- Quick Attack
-- Iron Tail
-
-=== TRAINER_RIVAL_CYNDAQUIL_5_HNS ===
-Name: {B_RIVAL_NAME}
-Class: Rival Hns
-Pic: Silver Hns
-Gender: Male
-Music: Silver
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Hyper Potion
-
-Ursaring @ Chesto Berry
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Slash
+Sneasel
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Faint Attack
-- Rock Smash
-- Rest
-
-Golbat
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Venoshock
-- Aerial Ace
-- Double Team
-- Confuse Ray
-
-Octillery @ Quick Claw
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Surf
-- Ice Beam
-- Psybeam
-- Signal Beam
-
-Victreebel
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sludge Bomb
-- Giga Drain
-- Sleep Powder
-- Growth
-
-Typhlosion @ Charcoal
-Level: 47
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
 - Quick Attack
-- Iron Tail
-- Thunder Punch
-
-Tyranitar
-Level: 48
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Crunch
-- Earthquake
-- Rock Slide
-- Fire Fang
-
-=== TRAINER_RIVAL_CYNDAQUIL_6_HNS ===
-Name: {B_RIVAL_NAME}
-Class: Rival Hns
-Pic: Silver Hns
-Gender: Male
-Music: Silver
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Full Restore / Full Restore
-
-Ursaluna Bloodmoon @ Chesto Berry
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hammer Arm
-- Moonblast
-- Ancient Power
-- Rest
-
-Crobat @ Leftovers
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Air Slash
-- Venoshock
-- Dark Pulse
-- Facade
-
-Octillery @ Never Melt Ice
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Ice Beam
-- Psybeam
-- Signal Beam
-
-Victreebel @ Scope Lens
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Sludge Bomb
-- Razor Leaf
-- Sleep Powder
-- Growth
-
-Typhlosion @ Charcoal
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Earthquake
-- Iron Tail
-- Thunder Punch
-
-Tyranitar @ Quick Claw
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Crunch
-- Earthquake
-- Stone Edge
-- Fire Fang
-
-=== TRAINER_RIVAL_CYNDAQUIL_7_HNS ===
-Name: {B_RIVAL_NAME}
-Class: Rival Hns
-Pic: Silver Hns
-Gender: Male
-Music: Silver
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Full Restore / Full Restore
-
-Ursaluna Bloodmoon @ Chesto Berry
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hammer Arm
-- Moonblast
-- Ancient Power
-- Rest
-
-Crobat @ Leftovers
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Air Slash
-- Venoshock
-- Dark Pulse
-- Facade
-
-Octillery @ Never Melt Ice
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Surf
-- Ice Beam
-- Psybeam
-- Signal Beam
-
-Victreebel @ Scope Lens
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Leaf Blade
-- Sludge Bomb
-- Sleep Powder
-- Growth
-
-Typhlosion @ Charcoal
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Earthquake
-- Iron Tail
-- Thunder Punch
-
-Tyranitar @ Quick Claw
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Crunch
-- Earthquake
-- Stone Edge
-- Fire Fang
-
-=== TRAINER_RIVAL_TOTODILE_1_HNS ===
-Name: ???
-Class: Rival Hns
-Pic: Silver Hns
-Gender: Male
-Music: Silver
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-
-Totodile
-Level: 5
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-
-=== TRAINER_RIVAL_TOTODILE_2_HNS ===
-Name: {B_RIVAL_NAME}
-Class: Rival Hns
-Pic: Silver Hns
-Gender: Male
-Music: Silver
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Potion
-
-Zubat
-Level: 15
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Absorb
-- Supersonic
-- Poison Sting
-- Astonish
-
-Larvitar
-Level: 16
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Rock Throw
-- Screech
-- Sandstorm
-
-Croconaw
-Level: 18
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Scratch
-- Rage
-- Bubble Beam
+- Icy Wind
 - Leer
 
-=== TRAINER_RIVAL_TOTODILE_3_HNS ===
-Name: {B_RIVAL_NAME}
-Class: Rival Hns
-Pic: Silver Hns
-Gender: Male
-Music: Silver
-Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Super Potion
+Magneton
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Thunder Wave
+- Supersonic
+- Screech
 
 Larvitar
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
 - Bite
-- Rock Throw
-- Screech
 - Sandstorm
+- Scary Face
 
-Houndour
-Level: 23
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Ember
-- Bite
-- Smog
-- Roar
-
-Golbat
-Level: 22
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Confuse Ray
-- Poison Sting
-- Air Cutter
-
-Croconaw
-Level: 24
-IVs: 0 HP / 0 Atk / 0 Def / 0 SpA / 0 SpD / 0 Spe
-- Bite
-- Ice Punch
-- Bubble Beam
+Quilava @ Sitrus Berry
+Level: 20
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Quick Attack
+- Smokescreen
 - Mud Slap
 
-=== TRAINER_RIVAL_TOTODILE_4_HNS ===
-Name: {B_RIVAL_NAME}
+=== TRAINER_RIVAL_CYNDAQUIL_3_HNS ===
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Super Potion
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
+
+Golbat
+Level: 26
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
+- Sludge Bomb
+- Confuse Ray
+- Bite
+
+Haunter
+Level: 26
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Hypnosis
+- Dream Eater
+- Confuse Ray
+
+Sneasel
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Slash
+- Icy Wind
+- Swords Dance
+
+Magneton
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Thunder Wave
+- Metal Claw
+- Screech
 
 Pupitar
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Thrash
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rock Slide
-- Screech
-- Bite
+- Earthquake
+- Sandstorm
+- Scary Face
 
-Victreebel
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Sludge
-- Razor Leaf
-- Sleep Powder
-- Growth
-
-Houndoom
-Level: 38
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Quilava @ Sitrus Berry
+Level: 28
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Flamethrower
-- Iron Tail
-- Bite
-- Nasty Plot
+- Quick Attack
+- Slash
+- Mud Slap
+
+=== TRAINER_RIVAL_CYNDAQUIL_4_HNS ===
+Name: SILVER
+Class: Rival Hns
+Pic: Rival Silver Hns
+Gender: Male
+Music: Hg Suspicious 1
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
 Golbat
-Level: 39
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Poison Fang
-- Double Team
+Level: 42
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
 - Confuse Ray
-- Air Cutter
+- Leech Life
 
-Feraligatr
-Level: 40
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ice Punch
-- Surf
+Gengar
+Level: 42
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Sludge Bomb
+- Hypnosis
+- Thunderbolt
+
+Weavile @ Quick Claw
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Ice Beam
+- Swords Dance
+- Brick Break
+
+Magnezone @ Magnet
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Metal Claw
+- Thunder Wave
+- Screech
+
+Pupitar
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Sandstorm
+- Dragon Dance
+
+Typhlosion @ Sitrus Berry
+Level: 44
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Thunderbolt
+- Earthquake
+- Quick Attack
+
+=== TRAINER_RIVAL_CYNDAQUIL_5_HNS ===
+Name: SILVER
+Class: Rival Hns
+Pic: Rival Silver Hns
+Gender: Male
+Music: Hg Suspicious 1
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
+
+Crobat @ Quick Claw
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
+- Confuse Ray
+- Toxic
+
+Gengar
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Destiny Bond
+
+Weavile @ Sitrus Berry
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Ice Beam
+- Swords Dance
+- Brick Break
+
+Magnezone @ Magnet
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Metal Claw
+- Thunder Wave
+- Reflect
+
+Tyranitar @ Leftovers
+Level: 56
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Sandstorm
+- Crunch
+
+Typhlosion @ Sitrus Berry
+Level: 56
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Thunderbolt
+- Earthquake
+- Sunny Day
+
+=== TRAINER_RIVAL_CYNDAQUIL_6_HNS ===
+Name: SILVER
+Class: Rival Hns
+Pic: Rival Silver Hns
+Gender: Male
+Music: Hg Suspicious 1
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
+
+Crobat @ Quick Claw
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
+- Confuse Ray
+- Leech Life
+
+Gengar
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Destiny Bond
+
+Ursaluna @ Black Belt
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
 - Slash
+- Bulk Up
+- Rock Slide
+
+Electivire @ Magnet
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Cross Chop
+- Fire Punch
+- Ice Punch
+
+Tyranitar @ Leftovers
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Dragon Dance
+- Crunch
+
+Typhlosion @ Sitrus Berry
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Thunderbolt
+- Earthquake
+- Sunny Day
+
+=== TRAINER_RIVAL_CYNDAQUIL_7_HNS ===
+Name: SILVER
+Class: Rival Hns
+Pic: Rival Silver Hns
+Gender: Male
+Music: Hg Suspicious 1
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
+
+Crobat @ Quick Claw
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
+- Confuse Ray
+- Toxic
+
+Gengar
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Sludge Bomb
+
+Ursaluna @ Leftovers
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Bulk Up
+- Rock Slide
+- Hyper Voice
+
+Salamence @ Dragon Fang
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Claw
+- Flamethrower
+- Earthquake
+- Dragon Dance
+
+Tyranitar @ Leftovers
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Crunch
+- Sandstorm
+
+Typhlosion @ Lum Berry
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Flamethrower
+- Thunderbolt
+- Earthquake
+- Sunny Day
+
+=== TRAINER_RIVAL_TOTODILE_1_HNS ===
+Name: SILVER
+Class: Rival Hns
+Pic: Rival Silver Hns
+Gender: Male
+Music: Hg Suspicious 1
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
+
+Zubat
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Leech Life
+- Supersonic
+- Confuse Ray
 - Bite
+
+Gastly
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Lick
+- Hypnosis
+- Spite
+- Night Shade
+
+Sneasel
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Quick Attack
+- Scratch
+- Leer
+- Bite
+
+Magnemite
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunder Shock
+- Thunder Wave
+- Supersonic
+- Double Team
+
+Larvitar
+Level: 11
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Bite
+- Sandstorm
+- Rock Throw
+- Leer
+
+Totodile @ Sitrus Berry
+Level: 12
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Water Gun
+- Bite
+- Scary Face
+- Leer
+
+=== TRAINER_RIVAL_TOTODILE_2_HNS ===
+Name: SILVER
+Class: Rival Hns
+Pic: Rival Silver Hns
+Gender: Male
+Music: Hg Suspicious 1
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
+
+Zubat
+Level: 18
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
+- Bite
+- Confuse Ray
+- Toxic
+
+Haunter
+Level: 18
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Hypnosis
+- Curse
+- Night Shade
+
+Sneasel
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Quick Attack
+- Icy Wind
+- Leer
+
+Magneton
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Thunder Wave
+- Supersonic
+- Screech
+
+Larvitar
+Level: 19
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Bite
+- Sandstorm
+- Scary Face
+
+Croconaw @ Sitrus Berry
+Level: 20
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
+- Bite
+- Scary Face
+- Slash
+
+=== TRAINER_RIVAL_TOTODILE_3_HNS ===
+Name: SILVER
+Class: Rival Hns
+Pic: Rival Silver Hns
+Gender: Male
+Music: Hg Suspicious 1
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
+
+Golbat
+Level: 26
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Wing Attack
+- Sludge Bomb
+- Confuse Ray
+- Bite
+
+Haunter
+Level: 26
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Hypnosis
+- Dream Eater
+- Confuse Ray
+
+Sneasel
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Slash
+- Icy Wind
+- Swords Dance
+
+Magneton
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Thunder Wave
+- Metal Claw
+- Screech
+
+Pupitar
+Level: 27
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Sandstorm
+- Scary Face
+
+Croconaw @ Sitrus Berry
+Level: 28
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Surf
+- Crunch
+- Slash
+- Scary Face
+
+=== TRAINER_RIVAL_TOTODILE_4_HNS ===
+Name: SILVER
+Class: Rival Hns
+Pic: Rival Silver Hns
+Gender: Male
+Music: Hg Suspicious 1
+Double Battle: No
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
+
+Golbat
+Level: 42
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Sludge Bomb
+- Aerial Ace
+- Confuse Ray
+- Leech Life
+
+Gengar
+Level: 42
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Sludge Bomb
+- Hypnosis
+- Thunderbolt
+
+Weavile @ Quick Claw
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Ice Beam
+- Swords Dance
+- Brick Break
+
+Magnezone @ Magnet
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Metal Claw
+- Thunder Wave
+- Screech
+
+Pupitar
+Level: 43
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
+- Sandstorm
+- Dragon Dance
+
+Feraligatr @ Sitrus Berry
+Level: 44
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Crunch
 
 === TRAINER_RIVAL_TOTODILE_5_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Hyper Potion
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Ursaring @ Chesto Berry
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Slash
-- Faint Attack
-- Rock Smash
-- Rest
-
-Golbat
-Level: 45
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Venoshock
-- Aerial Ace
-- Double Team
-- Confuse Ray
-
-Victreebel @ Quick Claw
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
+Crobat @ Quick Claw
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
-- Giga Drain
-- Sleep Powder
-- Growth
+- Aerial Ace
+- Confuse Ray
+- Toxic
 
-Houndoom
-Level: 46
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Flamethrower
-- Iron Tail
-- Crunch
-- Double Team
+Gengar
+Level: 54
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Destiny Bond
 
-Feraligatr @ Mystic Water
-Level: 47
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Ice Punch
-- Surf
-- Slash
-- Bite
+Weavile @ Sitrus Berry
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Faint Attack
+- Ice Beam
+- Swords Dance
+- Brick Break
 
-Tyranitar
-Level: 48
-IVs: 12 HP / 12 Atk / 12 Def / 12 SpA / 12 SpD / 12 Spe
-- Crunch
-- Earthquake
+Magnezone @ Magnet
+Level: 55
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Metal Claw
+- Thunder Wave
+- Reflect
+
+Tyranitar @ Leftovers
+Level: 56
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rock Slide
-- Fire Fang
+- Earthquake
+- Sandstorm
+- Crunch
+
+Feraligatr @ Sitrus Berry
+Level: 56
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Dragon Dance
 
 === TRAINER_RIVAL_TOTODILE_6_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Ursaluna Bloodmoon @ Chesto Berry
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hammer Arm
-- Moonblast
-- Ancient Power
-- Rest
-
-Crobat @ Leftovers
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Air Slash
-- Venoshock
-- Dark Pulse
-- Facade
-
-Victreebel @ Scope Lens
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Crobat @ Quick Claw
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
-- Razor Leaf
-- Sleep Powder
-- Growth
+- Aerial Ace
+- Confuse Ray
+- Leech Life
 
-Houndoom @ Charcoal
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Iron Tail
-- Crunch
-- Double Team
+Gengar
+Level: 66
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Destiny Bond
 
-Feraligatr @ Scope Lens
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Ice Beam
-- Surf
+Ursaluna @ Black Belt
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
 - Slash
-- Earthquake
+- Bulk Up
+- Rock Slide
 
-Tyranitar @ Quick Claw
-Level: 64
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Crunch
+Electivire @ Magnet
+Level: 67
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Thunderbolt
+- Cross Chop
+- Fire Punch
+- Ice Punch
+
+Tyranitar @ Leftovers
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
 - Earthquake
-- Stone Edge
-- Fire Fang
+- Dragon Dance
+- Crunch
+
+Feraligatr @ Sitrus Berry
+Level: 68
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Dragon Dance
 
 === TRAINER_RIVAL_TOTODILE_7_HNS ===
-Name: {B_RIVAL_NAME}
+Name: SILVER
 Class: Rival Hns
-Pic: Silver Hns
+Pic: Rival Silver Hns
 Gender: Male
-Music: Silver
+Music: Hg Suspicious 1
 Double Battle: No
-AI: Basic Trainer
-Mugshot: Dark Red
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Ursaluna Bloodmoon @ Chesto Berry
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Hammer Arm
-- Moonblast
-- Ancient Power
-- Rest
-
-Crobat @ Leftovers
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Air Slash
-- Venoshock
-- Dark Pulse
-- Facade
-
-Victreebel @ Scope Lens
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Leaf Blade
+Crobat @ Quick Claw
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sludge Bomb
-- Sleep Powder
-- Growth
+- Aerial Ace
+- Confuse Ray
+- Toxic
 
-Houndoom @ Charcoal
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Iron Tail
+Gengar
+Level: 76
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Shadow Ball
+- Thunderbolt
+- Psychic
+- Sludge Bomb
+
+Ursaluna @ Leftovers
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Earthquake
+- Bulk Up
+- Rock Slide
+- Hyper Voice
+
+Salamence @ Dragon Fang
+Level: 77
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Dragon Claw
+- Flamethrower
+- Earthquake
+- Dragon Dance
+
+Tyranitar @ Leftovers
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Rock Slide
+- Earthquake
 - Crunch
-- Double Team
+- Sandstorm
 
-Feraligatr @ Scope Lens
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+Feraligatr @ Lum Berry
+Level: 78
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
+- Hydro Pump
 - Ice Beam
-- Surf
-- Slash
 - Earthquake
-
-Tyranitar @ Quick Claw
-Level: 68
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Crunch
-- Earthquake
-- Stone Edge
-- Fire Fang
+- Dragon Dance
 
 === TRAINER_RED_HNS ===
 Name: RED
-Class: Pkmn Trainer 1 Hns
+Class: Pkmn Trainer Red Hns
 Pic: Red Hns
 Gender: Male
-Music: Hg Champion
+Music: Hg Boy 1
 Double Battle: No
-AI: Basic Trainer
-Items: Full Restore / Full Restore
+AI: Check Bad Move / Try To Faint / Check Viability
+Mugshot: Red
 
-Pikachu-Starter @ Light Ball
-Level: 93
+Pikachu @ Light Ball
+Level: 88
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Thunderbolt
-- Surf
+- Quick Attack
 - Iron Tail
-- Double Team
+- Thunder Wave
 
-Snorlax @ Leftovers
-Level: 77
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Belly Drum
-- Curse
-- Heavy Slam
-- Earthquake
-
-Charizard @ Charcoal
-Level: 79
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Fire Blast
-- Aerial Ace
-- Outrage
-- Steel Wing
-
-Venusaur @ Miracle Seed
-Level: 79
-IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Petal Blizzard
-- Double Edge
-- Sleep Powder
-- Leech Seed
-
-Blastoise @ Quick Claw
-Level: 79
+Lapras @ Leftovers
+Level: 86
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
 - Ice Beam
-- Hydro Pump
-- Skull Bash
+- Surf
+- Body Slam
+- Confuse Ray
+
+Snorlax @ Leftovers
+Level: 86
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Body Slam
+- Snore
+- Rest
 - Earthquake
 
-Espeon @ Sitrus Berry
-Level: 80
+Venusaur @ Miracle Seed
+Level: 86
 IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
-- Psychic
-- Shadow Ball
-- Hidden Power
-- Morning Sun
+- Solar Beam
+- Sludge Bomb
+- Leech Seed
+- Sleep Powder
+
+Blastoise @ Mystic Water
+Level: 86
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Hydro Pump
+- Ice Beam
+- Earthquake
+- Skull Bash
+
+Charizard @ Charcoal
+Level: 87
+IVs: 31 HP / 31 Atk / 31 Def / 31 SpA / 31 SpD / 31 Spe
+- Flamethrower
+- Aerial Ace
+- Slash
+- Earthquake
 
 === TRAINER_EUSINE_HNS ===
 Name: EUSINE

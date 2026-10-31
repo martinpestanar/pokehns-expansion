@@ -667,7 +667,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_POTION] =
     {
         .name = ITEM_NAME("POTION"),
-        .price = (I_PRICE >= GEN_7) ? 200 : 300,
+        .price = 1200,
         .holdEffectParam = 20,
         .description = COMPOUND_STRING(
             "Restores the HP of\n"
@@ -687,7 +687,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_SUPER_POTION] =
     {
         .name = ITEM_NAME("SUPER POTION"),
-        .price = 700,
+        .price = 3500,
         .holdEffectParam = 60,
         .description = COMPOUND_STRING(
             "Restores the HP of\n"
@@ -711,7 +711,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_HYPER_POTION] =
     {
         .name = ITEM_NAME("HYPER POTION"),
-        .price = (I_PRICE >= GEN_2 && I_PRICE <= GEN_6) ? 1200 : 1500,
+        .price = 8000,
         .holdEffectParam = 120,
         .description = COMPOUND_STRING(
             "Restores the HP of\n"
@@ -735,7 +735,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_MAX_POTION] =
     {
         .name = ITEM_NAME("MAX POTION"),
-        .price = 2500,
+        .price = 12000,
         .holdEffectParam = 255,
         .description = COMPOUND_STRING(
             "Fully restores the\n"
@@ -754,7 +754,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_FULL_RESTORE] =
     {
         .name = ITEM_NAME("FULL RESTORE"),
-        .price = 3000,
+        .price = 25000,
         .holdEffectParam = 255,
         .description = COMPOUND_STRING(
             "Fully restores the\n"
@@ -774,7 +774,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_REVIVE] =
     {
         .name = ITEM_NAME("REVIVE"),
-        .price = (I_PRICE >= GEN_7) ? 2000 : 1500,
+        .price = 15000,
         .description = COMPOUND_STRING(
             "Revives a fainted\n"
             "Pokémon with half\n"
@@ -793,7 +793,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_MAX_REVIVE] =
     {
         .name = ITEM_NAME("MAX REVIVE"),
-        .price = 4000,
+        .price = 35000,
         .description = sMaxReviveDesc,
         .pocket = POCKET_MEDICINE,
         .sortType = ITEM_TYPE_HEALTH_RECOVERY,
@@ -966,7 +966,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_REVIVAL_HERB] =
     {
         .name = ITEM_NAME("REVIVAL HERB"),
-        .price = 2800,
+        .price = 20000,
         .description = COMPOUND_STRING(
             "A very bitter herb\n"
             "that revives a\n"
@@ -1093,7 +1093,7 @@ const struct ItemInfo gItemsInfo[] =
     [ITEM_FULL_HEAL] =
     {
         .name = ITEM_NAME("FULL HEAL"),
-        .price = (I_PRICE >= GEN_7) ? 400 : 600,
+        .price = 2000,
         .description = sFullHealDesc,
         .pocket = POCKET_MEDICINE,
         .sortType = ITEM_TYPE_STATUS_RECOVERY,

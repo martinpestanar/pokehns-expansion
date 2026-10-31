@@ -712,7 +712,11 @@ static void Task_NewGameHnsSpeech_ProcessNameYesNoMenu(u8 taskId)
     {
     case 0:
         PlaySE(SE_SELECT);
-        gTasks[taskId].func = Task_NewGameHnsSpeech_ChallengeDisclaimer;
+        SetDefaultChallengeSettings();
+        gSprites[gTasks[taskId].tPlayerSpriteId].oam.objMode = ST_OAM_OBJ_BLEND;
+        NewGameHnsSpeech_StartFadeOutTarget1InTarget2(taskId, 2);
+        NewGameHnsSpeech_StartFadePlatformIn(taskId, 1);
+        gTasks[taskId].func = Task_NewGameHnsSpeech_SlidePlatformAway2;
         break;
     case MENU_B_PRESSED:
     case 1:
