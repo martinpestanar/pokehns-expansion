@@ -769,16 +769,16 @@ NewBarkTown_Lab_Text_ElmWhereGoing:
 	.string "going?$"
 
 NewBarkTown_Lab_Text_ChooseStarterRegionKanto:
-	.string "ELM: ¿Quieres al inicial de KANTO,\n"
-	.string "{STR_VAR_1} {COLOR BLUE}(Variocolor ✨){COLOR DARK_GRAY}?$"
+	.string "ELM: ¿Quieres al inicial de {COLOR RED}KANTO{COLOR DARK_GRAY},\n"
+	.string "{COLOR BLUE}{STR_VAR_1}{COLOR DARK_GRAY} {COLOR GREEN}(VARIOCOLOR SHINY){COLOR DARK_GRAY}?$"
 
 NewBarkTown_Lab_Text_ChooseStarterRegionJohto:
-	.string "ELM: ¿Quieres al inicial de JOHTO,\n"
-	.string "{STR_VAR_1} {COLOR BLUE}(Variocolor ✨){COLOR DARK_GRAY}?$"
+	.string "ELM: ¿Quieres al inicial de {COLOR RED}JOHTO{COLOR DARK_GRAY},\n"
+	.string "{COLOR BLUE}{STR_VAR_1}{COLOR DARK_GRAY} {COLOR GREEN}(VARIOCOLOR SHINY){COLOR DARK_GRAY}?$"
 
 NewBarkTown_Lab_Text_ChooseStarterRegionHoenn:
-	.string "ELM: ¿Quieres al inicial de HOENN,\n"
-	.string "{STR_VAR_1} {COLOR BLUE}(Variocolor ✨){COLOR DARK_GRAY}?$"
+	.string "ELM: ¿Quieres al inicial de {COLOR RED}HOENN{COLOR DARK_GRAY},\n"
+	.string "{COLOR BLUE}{STR_VAR_1}{COLOR DARK_GRAY} {COLOR GREEN}(VARIOCOLOR SHINY){COLOR DARK_GRAY}?$"
 
 NewBarkTown_Lab_Text_ChooseCyndaquil:
 	.string "ELM: You'll take {STR_VAR_1},\n"
