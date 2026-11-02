@@ -15,6 +15,12 @@ NewBarkTown_Lab_OnTransition::
 NewBarkTown_Lab_EventScript_InitRandomRegionStarters::
 	goto_if_set FLAG_SYS_POKEMON_GET, Common_EventScript_NopReturn
 	goto_if_ne VAR_STARTER_SPECIES_KANTO, 0, Common_EventScript_NopReturn
+	setflag FLAG_SHINY_STARTER_1
+	setflag FLAG_SHINY_STARTER_2
+	setflag FLAG_SHINY_STARTER_3
+	setflag FLAG_STARTER_PREVIEW_CHECKED_1
+	setflag FLAG_STARTER_PREVIEW_CHECKED_2
+	setflag FLAG_STARTER_PREVIEW_CHECKED_3
 	@ Sorteo Kanto (Bulbasaur, Charmander, Squirtle)
 	random 3
 	call_if_eq VAR_RESULT, 0, NewBarkTown_Lab_SetKantoBulbasaur
@@ -221,6 +227,8 @@ NewBarkTown_Lab_EventScript_ChikoritaBall::
 
 NewBarkTown_Lab_EventScript_KantoBall_Choice::
 	call_if_eq VAR_STARTER_SPECIES_KANTO, 0, NewBarkTown_Lab_EventScript_InitRandomRegionStarters
+	setflag FLAG_SHINY_STARTER_1
+	setflag FLAG_STARTER_PREVIEW_CHECKED_1
 	setvar VAR_STARTER_MON, 0
 	copyvar PLAYER_STARTER_SPECIES, VAR_STARTER_SPECIES_KANTO
 	showmonpic PLAYER_STARTER_SPECIES, 10, 3
@@ -243,6 +251,8 @@ NewBarkTown_Lab_EventScript_CyndaquilBall::
 
 NewBarkTown_Lab_EventScript_JohtoBall_Choice::
 	call_if_eq VAR_STARTER_SPECIES_JOHTO, 0, NewBarkTown_Lab_EventScript_InitRandomRegionStarters
+	setflag FLAG_SHINY_STARTER_2
+	setflag FLAG_STARTER_PREVIEW_CHECKED_2
 	setvar VAR_STARTER_MON, 1
 	copyvar PLAYER_STARTER_SPECIES, VAR_STARTER_SPECIES_JOHTO
 	showmonpic PLAYER_STARTER_SPECIES, 10, 3
@@ -265,6 +275,8 @@ NewBarkTown_Lab_EventScript_TotodileBall::
 
 NewBarkTown_Lab_EventScript_HoennBall_Choice::
 	call_if_eq VAR_STARTER_SPECIES_HOENN, 0, NewBarkTown_Lab_EventScript_InitRandomRegionStarters
+	setflag FLAG_SHINY_STARTER_3
+	setflag FLAG_STARTER_PREVIEW_CHECKED_3
 	setvar VAR_STARTER_MON, 2
 	copyvar PLAYER_STARTER_SPECIES, VAR_STARTER_SPECIES_HOENN
 	showmonpic PLAYER_STARTER_SPECIES, 10, 3
@@ -322,7 +334,9 @@ NewBarkTown_Lab_EventScript_GiveStarter_NotShiny::
 	return
 
 NewBarkTown_Lab_EventScript_GiveStarter_Shiny::
+	setflag FLAG_TEMP_4
 	givemon PLAYER_STARTER_SPECIES, 5, ITEM_NONE, BALL_POKE, NATURE_RANDOM, NUM_ABILITY_PERSONALITY, MON_GENDER_RANDOM, 0, 0, 0, 0, 0, 0, USE_RANDOM_IVS, USE_RANDOM_IVS, USE_RANDOM_IVS, USE_RANDOM_IVS, USE_RANDOM_IVS, USE_RANDOM_IVS, MOVE_DEFAULT, MOVE_DEFAULT, MOVE_DEFAULT, MOVE_DEFAULT, SHINY_MODE_ALWAYS	
+	clearflag FLAG_TEMP_4
 	return
 
 NewBarkTown_Lab_EventScript_NicknameStarter::
