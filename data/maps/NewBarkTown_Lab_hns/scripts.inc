@@ -6,10 +6,61 @@ NewBarkTown_Lab_hns_MapScripts::
 	.byte 0
 
 NewBarkTown_Lab_OnTransition::
+	call NewBarkTown_Lab_EventScript_InitRandomRegionStarters
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 6, NewBarkTown_Lab_EventScript_ElmAtComputer
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 2, NewBarkTown_Lab_EventScript_ElmAtComputer
 	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 3, NewBarkTown_Lab_EventScript_ElmAtComputer
 	end
+
+NewBarkTown_Lab_EventScript_InitRandomRegionStarters::
+	goto_if_set FLAG_SYS_POKEMON_GET, Common_EventScript_NopReturn
+	goto_if_ne VAR_STARTER_SPECIES_KANTO, 0, Common_EventScript_NopReturn
+	@ Sorteo Kanto (Bulbasaur, Charmander, Squirtle)
+	random 3
+	call_if_eq VAR_RESULT, 0, NewBarkTown_Lab_SetKantoBulbasaur
+	call_if_eq VAR_RESULT, 1, NewBarkTown_Lab_SetKantoCharmander
+	call_if_eq VAR_RESULT, 2, NewBarkTown_Lab_SetKantoSquirtle
+	@ Sorteo Johto (Chikorita, Cyndaquil, Totodile)
+	random 3
+	call_if_eq VAR_RESULT, 0, NewBarkTown_Lab_SetJohtoChikorita
+	call_if_eq VAR_RESULT, 1, NewBarkTown_Lab_SetJohtoCyndaquil
+	call_if_eq VAR_RESULT, 2, NewBarkTown_Lab_SetJohtoTotodile
+	@ Sorteo Hoenn (Treecko, Torchic, Mudkip)
+	random 3
+	call_if_eq VAR_RESULT, 0, NewBarkTown_Lab_SetHoennTreecko
+	call_if_eq VAR_RESULT, 1, NewBarkTown_Lab_SetHoennTorchic
+	call_if_eq VAR_RESULT, 2, NewBarkTown_Lab_SetHoennMudkip
+	return
+
+NewBarkTown_Lab_SetKantoBulbasaur::
+	setvar VAR_STARTER_SPECIES_KANTO, SPECIES_BULBASAUR
+	return
+NewBarkTown_Lab_SetKantoCharmander::
+	setvar VAR_STARTER_SPECIES_KANTO, SPECIES_CHARMANDER
+	return
+NewBarkTown_Lab_SetKantoSquirtle::
+	setvar VAR_STARTER_SPECIES_KANTO, SPECIES_SQUIRTLE
+	return
+
+NewBarkTown_Lab_SetJohtoChikorita::
+	setvar VAR_STARTER_SPECIES_JOHTO, SPECIES_CHIKORITA
+	return
+NewBarkTown_Lab_SetJohtoCyndaquil::
+	setvar VAR_STARTER_SPECIES_JOHTO, SPECIES_CYNDAQUIL
+	return
+NewBarkTown_Lab_SetJohtoTotodile::
+	setvar VAR_STARTER_SPECIES_JOHTO, SPECIES_TOTODILE
+	return
+
+NewBarkTown_Lab_SetHoennTreecko::
+	setvar VAR_STARTER_SPECIES_HOENN, SPECIES_TREECKO
+	return
+NewBarkTown_Lab_SetHoennTorchic::
+	setvar VAR_STARTER_SPECIES_HOENN, SPECIES_TORCHIC
+	return
+NewBarkTown_Lab_SetHoennMudkip::
+	setvar VAR_STARTER_SPECIES_HOENN, SPECIES_MUDKIP
+	return
 	
 NewBarkTown_Lab_OnFrame::
 	map_script_2 VAR_NEWBARKTOWN_LABSTATE, 4, NewBarkTown_Lab_EventScript_PoliceEpisode
@@ -162,21 +213,21 @@ NewBarkTown_Lab_EventScript_ShouldntTouch::
 NewBarkTown_Lab_EventScript_ChikoritaBall::
 	lock
 	goto_if_set FLAG_SYS_POKEMON_GET, NewBarkTown_Lab_EventScript_ShouldntTouch
-	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_ChikoritaBall_Choice
+	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_KantoBall_Choice
 	msgbox NewBarkTown_Lab_Text_ShouldntTouch, MSGBOX_DEFAULT
 	release
 	closemessage
 	end
 
-NewBarkTown_Lab_EventScript_ChikoritaBall_Choice::
-	@callnative DisableStaticRandomizer
+NewBarkTown_Lab_EventScript_KantoBall_Choice::
+	call_if_eq VAR_STARTER_SPECIES_KANTO, 0, NewBarkTown_Lab_EventScript_InitRandomRegionStarters
 	setvar VAR_STARTER_MON, 0
-	setvar PLAYER_STARTER_SPECIES, SPECIES_CHIKORITA
+	copyvar PLAYER_STARTER_SPECIES, VAR_STARTER_SPECIES_KANTO
 	showmonpic PLAYER_STARTER_SPECIES, 10, 3
 	playmoncry PLAYER_STARTER_SPECIES, CRY_MODE_NORMAL
 	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
 	buffermoncategory STR_VAR_2, PLAYER_STARTER_SPECIES
-	msgbox NewBarkTown_Lab_Text_ChooseChikorita, MSGBOX_YESNO
+	msgbox NewBarkTown_Lab_Text_ChooseStarterRegionKanto, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, NewBarkTown_Lab_EventScript_ChoseStarter
 	goto_if_eq VAR_RESULT, NO, NewBarkTown_Lab_EventScript_DeclinedStarter
 	end
@@ -184,21 +235,21 @@ NewBarkTown_Lab_EventScript_ChikoritaBall_Choice::
 NewBarkTown_Lab_EventScript_CyndaquilBall::
 	lock
 	goto_if_set FLAG_SYS_POKEMON_GET, NewBarkTown_Lab_EventScript_ShouldntTouch
-	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_CyndaquilBall_Choice
+	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_JohtoBall_Choice
 	msgbox NewBarkTown_Lab_Text_ShouldntTouch, MSGBOX_DEFAULT
 	closemessage
 	release
 	end
 
-NewBarkTown_Lab_EventScript_CyndaquilBall_Choice::
-	@callnative DisableStaticRandomizer
+NewBarkTown_Lab_EventScript_JohtoBall_Choice::
+	call_if_eq VAR_STARTER_SPECIES_JOHTO, 0, NewBarkTown_Lab_EventScript_InitRandomRegionStarters
 	setvar VAR_STARTER_MON, 1
-	setvar PLAYER_STARTER_SPECIES, SPECIES_CYNDAQUIL
+	copyvar PLAYER_STARTER_SPECIES, VAR_STARTER_SPECIES_JOHTO
 	showmonpic PLAYER_STARTER_SPECIES, 10, 3
 	playmoncry PLAYER_STARTER_SPECIES, CRY_MODE_NORMAL
 	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
 	buffermoncategory STR_VAR_2, PLAYER_STARTER_SPECIES
-	msgbox NewBarkTown_Lab_Text_ChooseCyndaquil, MSGBOX_YESNO	
+	msgbox NewBarkTown_Lab_Text_ChooseStarterRegionJohto, MSGBOX_YESNO	
 	goto_if_eq VAR_RESULT, YES, NewBarkTown_Lab_EventScript_ChoseStarter
 	goto_if_eq VAR_RESULT, NO, NewBarkTown_Lab_EventScript_DeclinedStarter
 	end
@@ -206,21 +257,21 @@ NewBarkTown_Lab_EventScript_CyndaquilBall_Choice::
 NewBarkTown_Lab_EventScript_TotodileBall::
 	lock
 	goto_if_set FLAG_SYS_POKEMON_GET, NewBarkTown_Lab_EventScript_ShouldntTouch
-	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_TotodileBall_Choice
+	goto_if_eq VAR_NEWBARKTOWN_LABSTATE, 1, NewBarkTown_Lab_EventScript_HoennBall_Choice
 	msgbox NewBarkTown_Lab_Text_ShouldntTouch, MSGBOX_DEFAULT
 	release
 	closemessage
 	end
 
-NewBarkTown_Lab_EventScript_TotodileBall_Choice::
-	@callnative DisableStaticRandomizer
+NewBarkTown_Lab_EventScript_HoennBall_Choice::
+	call_if_eq VAR_STARTER_SPECIES_HOENN, 0, NewBarkTown_Lab_EventScript_InitRandomRegionStarters
 	setvar VAR_STARTER_MON, 2
-	setvar PLAYER_STARTER_SPECIES, SPECIES_TOTODILE
+	copyvar PLAYER_STARTER_SPECIES, VAR_STARTER_SPECIES_HOENN
 	showmonpic PLAYER_STARTER_SPECIES, 10, 3
 	playmoncry PLAYER_STARTER_SPECIES, CRY_MODE_NORMAL
 	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
 	buffermoncategory STR_VAR_2, PLAYER_STARTER_SPECIES
-	msgbox NewBarkTown_Lab_Text_ChooseTotodile, MSGBOX_YESNO
+	msgbox NewBarkTown_Lab_Text_ChooseStarterRegionHoenn, MSGBOX_YESNO
 	goto_if_eq VAR_RESULT, YES, NewBarkTown_Lab_EventScript_ChoseStarter
 	goto_if_eq VAR_RESULT, NO, NewBarkTown_Lab_EventScript_DeclinedStarter
 	end
@@ -229,18 +280,15 @@ NewBarkTown_Lab_EventScript_DeclinedStarter::
 	hidemonpic
 	msgbox NewBarkTown_Lab_Text_DidntChooseStarter, MSGBOX_DEFAULT
 	closemessage
-	@callnative EnableStaticRandomizer
 	release
 	end
 
 NewBarkTown_Lab_EventScript_ChoseStarter::
-	@callnative EnableStaticRandomizer
 	hidemonpic
 	removeobject VAR_LAST_TALKED
 	msgbox NewBarkTown_Lab_Text_ChoseStarter, MSGBOX_DEFAULT
-	call_if_eq VAR_STARTER_MON, 0, NewBarkTown_Lab_EventScript_GiveStarter_Chikorita
-	call_if_eq VAR_STARTER_MON, 1, NewBarkTown_Lab_EventScript_GiveStarter_Cyndaquil
-	call_if_eq VAR_STARTER_MON, 2, NewBarkTown_Lab_EventScript_GiveStarter_Totodile
+	@ Entrega 100% SHINY siempre
+	call NewBarkTown_Lab_EventScript_GiveStarter_Shiny
 	setflag FLAG_SYS_POKEMON_GET
 	playfanfare MUS_OBTAIN_ITEM
 	bufferspeciesname STR_VAR_1, PLAYER_STARTER_SPECIES
@@ -719,6 +767,18 @@ NewBarkTown_Lab_Text_ElmChooseAPokemon:
 NewBarkTown_Lab_Text_ElmWhereGoing:
 	.string "ELM: Wait! Where are you\n"
 	.string "going?$"
+
+NewBarkTown_Lab_Text_ChooseStarterRegionKanto:
+	.string "ELM: ¿Quieres al inicial de KANTO,\n"
+	.string "{STR_VAR_1} {COLOR BLUE}(Variocolor ✨){COLOR DARK_GRAY}?$"
+
+NewBarkTown_Lab_Text_ChooseStarterRegionJohto:
+	.string "ELM: ¿Quieres al inicial de JOHTO,\n"
+	.string "{STR_VAR_1} {COLOR BLUE}(Variocolor ✨){COLOR DARK_GRAY}?$"
+
+NewBarkTown_Lab_Text_ChooseStarterRegionHoenn:
+	.string "ELM: ¿Quieres al inicial de HOENN,\n"
+	.string "{STR_VAR_1} {COLOR BLUE}(Variocolor ✨){COLOR DARK_GRAY}?$"
 
 NewBarkTown_Lab_Text_ChooseCyndaquil:
 	.string "ELM: You'll take {STR_VAR_1},\n"

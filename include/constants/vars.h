@@ -249,7 +249,9 @@
 #define VAR_GIFT_UNUSED_5                                0x40E2 // Var is written to, but never read
 #define VAR_GIFT_UNUSED_6                                0x40E3 // Var is written to, but never read
 #define VAR_GIFT_UNUSED_7                                0x40E4 // var is written to, but never read
-#define VAR_UNUSED_0x40E5                                0x40E5 // Unused Var
+#define VAR_STARTER_SPECIES_KANTO                        0x40E5 // Starter Kanto aleatorio
+#define VAR_STARTER_SPECIES_JOHTO                        0x40F7 // Starter Johto aleatorio
+#define VAR_STARTER_SPECIES_HOENN                        0x40F8 // Starter Hoenn aleatorio
 #define VAR_DAILY_SLOTS                                  0x40E6
 #define VAR_DAILY_WILDS                                  0x40E7
 #define VAR_DAILY_BLENDER                                0x40E8
