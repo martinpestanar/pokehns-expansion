@@ -4199,9 +4199,9 @@ static void Cmd_getexp(void)
 
             // Alpha / Treasure wild encounters yield 3x experience upon defeat
             if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER)
-             && (gBattleMons[gBattlerFainted].heldItem == ITEM_NUGGET
-              || gBattleMons[gBattlerFainted].heldItem == ITEM_STAR_PIECE
-              || gBattleMons[gBattlerFainted].heldItem == ITEM_BIG_PEARL))
+             && (gBattleMons[gBattlerFainted].item == ITEM_NUGGET
+              || gBattleMons[gBattlerFainted].item == ITEM_STAR_PIECE
+              || gBattleMons[gBattlerFainted].item == ITEM_BIG_PEARL))
             {
                 calculatedExp *= 3;
             }
