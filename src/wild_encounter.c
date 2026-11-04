@@ -582,12 +582,43 @@ static void TryApplyPokeblockBonus(struct Pokemon *mon, u16 species)
     CalculateMonStats(mon);
 }
 
+static void TryApplyAlphaWildMon(struct Pokemon *mon)
+{
+    // 5% chance of spawning an Alpha / Golden Aura Wild Pokémon
+    if ((Random() % 100) < 5)
+    {
+        u8 perfectIv = 31;
+        u8 ivStats[] = {
+            MON_DATA_HP_IV, MON_DATA_ATK_IV, MON_DATA_DEF_IV,
+            MON_DATA_SPEED_IV, MON_DATA_SPATK_IV, MON_DATA_SPDEF_IV
+        };
+        u32 i;
+        u16 lootItems[] = { ITEM_NUGGET, ITEM_STAR_PIECE, ITEM_BIG_PEARL };
+        u16 loot = lootItems[Random() % ARRAY_COUNT(lootItems)];
+
+        // Shuffle IV stat indices and guarantee 3 stats at 31 IVs (3x31)
+        for (i = 0; i < 3; i++)
+        {
+            u32 r = i + (Random() % (6 - i));
+            u8 temp = ivStats[i];
+            ivStats[i] = ivStats[r];
+            ivStats[r] = temp;
+            SetMonData(mon, ivStats[i], &perfectIv);
+        }
+        CalculateMonStats(mon);
+
+        // Equip high-value treasure drop
+        SetMonData(mon, MON_DATA_HELD_ITEM, &loot);
+    }
+}
+
 void CreateWildMon(u16 species, u8 level)
 {
     ZeroEnemyPartyMons();
     u32 personality = GetMonPersonality(species, GetSynchronizedGender(WILDMON_ORIGIN, species), PickWildMonNature(species), RANDOM_UNOWN_LETTER);
     CreateMonWithIVs(&gEnemyParty[0], species, level, personality, OTID_STRUCT_PLAYER_ID, USE_RANDOM_IVS);
     TryApplyPokeblockBonus(&gEnemyParty[0], species);
+    TryApplyAlphaWildMon(&gEnemyParty[0]);
     GiveMonInitialMoveset(&gEnemyParty[0]);
 }
 

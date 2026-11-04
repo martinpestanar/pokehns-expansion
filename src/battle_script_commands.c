@@ -4197,6 +4197,15 @@ static void Cmd_getexp(void)
             if (B_TRAINER_EXP_MULTIPLIER <= GEN_7 && gBattleTypeFlags & BATTLE_TYPE_TRAINER)
                 calculatedExp = (calculatedExp * 150) / 100;
 
+            // Alpha / Treasure wild encounters yield 3x experience upon defeat
+            if (!(gBattleTypeFlags & BATTLE_TYPE_TRAINER)
+             && (gBattleMons[gBattlerFainted].heldItem == ITEM_NUGGET
+              || gBattleMons[gBattlerFainted].heldItem == ITEM_STAR_PIECE
+              || gBattleMons[gBattlerFainted].heldItem == ITEM_BIG_PEARL))
+            {
+                calculatedExp *= 3;
+            }
+
             if (UseClassicExpSplit())
             {
                 if (viaExpShare) // at least one mon is getting exp via exp share
