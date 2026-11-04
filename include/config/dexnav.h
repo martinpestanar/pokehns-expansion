@@ -1,18 +1,15 @@
 #ifndef GUARD_CONFIG_DEXNAV_H
 #define GUARD_CONFIG_DEXNAV_H
 
-#include "constants/flags.h"
-#include "constants/vars.h"
-
 #define DEXNAV_ENABLED                TRUE   // Whether or not DexNav is enabled. If TRUE, flags/vars below must all be non-zero
 #define USE_DEXNAV_SEARCH_LEVELS      FALSE  /* WARNING: POSSIBLY EXCEEDS SAVEBLOCK SPACE! REQUIRES 1 BYTE PER SPECIES */
 
-// Flag/var defines
-#define DN_FLAG_SEARCHING             FLAG_SYS_DEXNAV_SEARCHING     // Searching for mon
-#define DN_FLAG_DEXNAV_GET            FLAG_SYS_DEXNAV_GET           // DexNav shows in start menu
-#define DN_FLAG_DETECTOR_MODE         FLAG_SYS_DEXNAV_DETECTOR_MODE // Allow player to find hidden mons
-#define DN_VAR_SPECIES                VAR_DEXNAV_SPECIES            // Registered DexNav species
-#define DN_VAR_STEP_COUNTER           VAR_DEXNAV_STEP_COUNTER       // Steps for finding hidden pokemon
+// Flag/var defines (0x304..0x306 in flags_hns.h, 0x40B4/0x40C2 in vars_hns.h)
+#define DN_FLAG_SEARCHING             0x304 // Searching for mon
+#define DN_FLAG_DEXNAV_GET            0x305 // DexNav shows in start menu
+#define DN_FLAG_DETECTOR_MODE         0x306 // Allow player to find hidden mons
+#define DN_VAR_SPECIES                0x40B4 // Registered DexNav species
+#define DN_VAR_STEP_COUNTER           0x40C2 // Steps for finding hidden pokemon
 
 // Search parameters
 #define DEXNAV_TIMEOUT                  15  // 15 seconds is the time out. Max of 1092 seconds allowed
