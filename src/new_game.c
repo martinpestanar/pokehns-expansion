@@ -162,9 +162,12 @@ void SetDefaultChallengeSettings(void)
 
 static void ClearPokedexFlags(void)
 {
+    u16 i;
     gUnusedPokedexU8 = 0;
     memset(&gSaveBlock1Ptr->dexCaught, 0, sizeof(gSaveBlock1Ptr->dexCaught));
     memset(&gSaveBlock1Ptr->dexSeen, 0, sizeof(gSaveBlock1Ptr->dexSeen));
+    for (i = 1; i <= NATIONAL_DEX_CELEBI; i++)
+        GetSetPokedexFlag(i, FLAG_SET_SEEN);
 }
 
 void ClearAllContestWinnerPics(void)
@@ -244,6 +247,9 @@ void NewGameInitData(void)
     PlayTimeCounter_Reset();
     ClearPokedexFlags();
     InitEventData();
+    FlagSet(FLAG_SYS_POKEDEX_GET);
+    FlagSet(FLAG_SYS_DEXNAV_GET);
+    FlagSet(FLAG_SYS_DEXNAV_DETECTOR_MODE);
     ClearTVShowData();
     ResetGabbyAndTy();
     ClearSecretBases();
