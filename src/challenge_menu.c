@@ -2432,7 +2432,8 @@ bool8 IsPokecenterChallengeActivated(void)
 
 bool8 IsOneTypeChallengeActive(void)
 {
-    return gSaveBlock3Ptr->challengeSettings.tx_Challenges_OneTypeChallenge != ONE_TYPE_OFF;
+    return gSaveBlock3Ptr->challengeSettings.tx_Challenges_OneTypeChallenge != ONE_TYPE_OFF
+        && gSaveBlock3Ptr->challengeSettings.tx_Challenges_OneTypeChallenge != TYPE_NONE;
 }
 
 // Returns TRUE if the species has the given type, or if any species it can

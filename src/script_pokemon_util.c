@@ -668,7 +668,7 @@ u32 ScriptGiveMon(u16 species, u8 level, enum Item item)
             species = RandomizeMon(RANDOMIZER_REASON_FIXED_ENCOUNTER, GetRandomizerOption(RANDOMIZER_OPTION_SPECIES_MODE), Random32(), species);
     }
 #endif
-    if (IsOneTypeChallengeActive() && !FlagGet(FLAG_SYS_POKEMON_GET))
+    if (IsOneTypeChallengeActive() && !FlagGet(FLAG_SYS_POKEMON_GET) && VarGet(VAR_STARTER_SPECIES_KANTO) == 0)
         species = GetStarterPokemon(VarGet(VAR_STARTER_MON));
     CreateRandomMon(&mon, species, level);
     if (item)

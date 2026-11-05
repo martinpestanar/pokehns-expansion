@@ -2722,7 +2722,7 @@ bool8 ScrCmd_showmonpic(struct ScriptContext *ctx)
         }
         #endif
 
-        if (IsOneTypeChallengeActive())
+        if (IsOneTypeChallengeActive() && VarGet(VAR_STARTER_SPECIES_KANTO) == 0)
         {
             species = GetStarterPokemon(VarGet(VAR_STARTER_MON));
             if (varId >= VARS_START)
