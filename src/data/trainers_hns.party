@@ -14523,11 +14523,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate @ Silk Scarf
 Level: 41
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Quick Attack
 - Hyper Fang
 - Pursuit
 - Mud-Slap
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Fearow
 Level: 41
@@ -14552,11 +14552,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate @ Silk Scarf
 Level: 46
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Super Fang
 - Hyper Fang
 - Pursuit
 - Iron Tail
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Snorlax
 Level: 46
@@ -14581,11 +14581,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate @ Silk Scarf
 Level: 58
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Body Slam
 - Thunderbolt
 - Pursuit
 - Iron Tail
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ursaring
 Level: 58
@@ -14610,11 +14610,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Raticate @ Silk Scarf
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Body Slam
 - Thunderbolt
 - Pursuit
 - Iron Tail
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Snorlax
 Level: 86
@@ -14793,27 +14793,27 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Qwilfish
 Level: 63
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Toxic
 - Minimize
 - Surf
 - Pin Missile
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Seaking
 Level: 66
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Waterfall
 - Megahorn
 - Rain Dance
 - Drill Peck
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Tentacruel
 Level: 63
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
 - Surf
 - Acid Armor
 - Ice Beam
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Octillery @ Mystic Water
 Level: 66
@@ -14830,27 +14830,27 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Qwilfish
 Level: 75
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Toxic
 - Minimize
 - Surf
 - Pin Missile
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Seaking
 Level: 78
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Waterfall
 - Megahorn
 - Rain Dance
 - Drill Peck
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Tentacruel
 Level: 75
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sludge Bomb
 - Surf
 - Acid Armor
 - Ice Beam
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Quagsire @ Mystic Water
 Level: 78
@@ -14942,27 +14942,27 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Victreebel
 Level: 70
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sleep Powder
 - Poison Powder
 - Stun Spore
 - Sludge Bomb
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Nidoking
 Level: 72
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Earthquake
 - Double Kick
 - Sludge Bomb
 - Iron Tail
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Nidoqueen
 Level: 73
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Earthquake
 - Double Kick
 - Sludge Bomb
 - Body Slam
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Roserade @ Miracle Seed
 Level: 73
@@ -15054,19 +15054,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Golem
 Level: 76
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Earthquake
 - Explosion
 - Rock Slide
 - Rollout
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Machamp
 Level: 74
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Cross Chop
 - Vital Throw
 - Headbutt
 - Dig
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Donphan
 Level: 76
@@ -15262,19 +15262,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Jumpluff
 Level: 72
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Stun Spore
 - Sunny Day
 - Leech Seed
 - Giga Drain
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Venusaur
 Level: 75
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Solar Beam
 - Razor Leaf
 - Body Slam
 - Mud-Slap
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ninetales
 Level: 75
@@ -15370,19 +15370,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode
 Level: 75
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunderbolt
 - Screech
 - Light Screen
 - Explosion
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Forretress
 Level: 76
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Gyro Ball
 - Spikes
 - Protect
 - Explosion
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Hypno
 Level: 76
@@ -15603,19 +15603,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Ampharos
 Level: 39
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Tackle
 - Growl
 - Thunder Shock
 - Thunder Wave
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Golduck
 Level: 39
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Scratch
 - Tail Whip
 - Disable
 - Confusion
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Clefable
 Level: 39
@@ -15636,19 +15636,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Golduck
 Level: 53
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Surf
 - Disable
 - Confusion
 - Screech
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ampharos
 Level: 53
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Headbutt
 - Thunder Punch
 - Thunder Wave
 - Cotton Spore
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Togekiss
 Level: 53
@@ -15669,19 +15669,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Golduck
 Level: 62
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Surf
 - Disable
 - Psychic
 - Screech
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ampharos
 Level: 63
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Headbutt
 - Thunder Punch
 - Thunder Wave
 - Cotton Spore
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Bellossom
 Level: 63
@@ -15702,19 +15702,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Golduck
 Level: 74
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Surf
 - Disable
 - Psychic
 - Screech
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ampharos
 Level: 75
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Headbutt
 - Thunder Punch
 - Thunder Wave
 - Cotton Spore
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Granbull
 Level: 75
@@ -15810,19 +15810,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Mr. Mime
 Level: 74
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psychic
 - Light Screen
 - Reflect
 - Encore
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Magnezone
 Level: 78
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunder
 - Thunder Wave
 - Lock-On
 - Tri Attack
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Roserade
 Level: 78
@@ -15918,19 +15918,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Raichu @ Light Ball
 Level: 75
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Thunderbolt
 - Iron Tail
 - Quick Attack
 - Thunder Wave
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Rapidash
 Level: 76
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Fire Blast
 - Bounce
 - Stomp
 - Sunny Day
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Granbull
 Level: 76
@@ -16051,11 +16051,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Porygon2
 Level: 64
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Recover
 - Psychic
 - Conversion
 - Tri Attack
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Slowbro
 Level: 64
@@ -16080,11 +16080,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Chansey
 Level: 73
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Rollout
 - Attract
 - Egg Bomb
 - Soft-Boiled
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Rhyperior
 Level: 73
@@ -16109,11 +16109,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefable
 Level: 53
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Encore
 - Double Slap
 - Minimize
 - Metronome
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Azumarill
 Level: 53
@@ -16138,11 +16138,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefable
 Level: 43
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Encore
 - Sing
 - Double Slap
 - Minimize
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Rapidash
 Level: 43
@@ -16167,19 +16167,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Clefable
 Level: 73
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Double Edge
 - Encore
 - Moonlight
 - Minimize
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Wigglytuff
 Level: 74
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sing
 - Double Slap
 - Defense Curl
 - Headbutt
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Rapidash
 Level: 74
@@ -16300,27 +16300,27 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Steelix
 Level: 49
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Bind
 - Rock Throw
 - Toxic
 - Dig
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Machamp
 Level: 54
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Headbutt
 - Swagger
 - Foresight
 - Vital Throw
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Hitmonlee
 Level: 52
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Double Team
 - Hi Jump Kick
 - Mud-Slap
 - Swift
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Breloom @ Black Belt
 Level: 54
@@ -16337,27 +16337,27 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Mamoswine
 Level: 70
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Earthquake
 - Blizzard
 - Rest
 - Take Down
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Dugtrio
 Level: 70
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Magnitude
 - Dig
 - Mud-Slap
 - Slash
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Steelix
 Level: 70
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dig
 - Iron Tail
 - Sandstorm
 - Slam
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Tyranitar @ Hard Stone
 Level: 70
@@ -16424,27 +16424,27 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Rapidash
 Level: 62
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Double Team
 - Stomp
 - Flamethrower
 - Sunny Day
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Nidoqueen
 Level: 60
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Body Slam
 - Surf
 - Earthquake
 - Sludge Bomb
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Raichu
 Level: 58
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Swift
 - Mud-Slap
 - Quick Attack
 - Thunderbolt
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Tangrowth @ Miracle Seed
 Level: 62
@@ -16536,27 +16536,27 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Electrode
 Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Screech
 - Sonic Boom
 - Rollout
 - Light Screen
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Arcanine
 Level: 51
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Sunny Day
 - Leer
 - Take Down
 - Flame Wheel
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Vileplume
 Level: 53
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Solar Beam
 - Sleep Powder
 - Acid
 - Moonlight
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Nidoking @ Sitrus Berry
 Level: 53
@@ -16648,11 +16648,11 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Granbull @ Sitrus Berry
 Level: 76
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Play Rough
 - Crunch
 - Fire Fang
 - Rock Slide
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Bellossom
 Level: 76
@@ -16727,19 +16727,19 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Politoed
 Level: 54
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Whirlpool
 - Rain Dance
 - Body Slam
 - Perish Song
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Poliwrath
 Level: 54
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Surf
 - Strength
 - Ice Punch
 - Submission
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Tentacruel
 Level: 54
@@ -16760,43 +16760,43 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Victreebel
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Protect
 - Toxic
 - Acid
 - Razor Leaf
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Kingler
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Vice Grip
 - Stomp
 - Surf
 - Protect
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Flareon
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sand Attack
 - Quick Attack
 - Bite
 - Flamethrower
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Donphan
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Fury Attack
 - Earthquake
 - Rollout
 - Rock Smash
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Dragonite @ Leftovers
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Breath
 - Fly
 - Wrap
 - Thunderbolt
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_GAVEN_3_HNS ===
 Name: GAVEN
@@ -16809,43 +16809,43 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Victreebel
 Level: 63
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Protect
 - Toxic
 - Acid
 - Razor Leaf
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Kingler
 Level: 64
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Vice Grip
 - Stomp
 - Surf
 - Protect
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Flareon
 Level: 63
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Sand Attack
 - Quick Attack
 - Bite
 - Flamethrower
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Dragonite
 Level: 63
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Dragon Breath
 - Surf
 - Wrap
 - Dragon Rage
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Porygon2 @ Leftovers
 Level: 62
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Tri Attack
 - Ice Beam
 - Defense Curl
 - Recover
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_BETH_2_HNS ===
 Name: BETH
@@ -16858,42 +16858,42 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Rapidash
 Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Stomp
 - Fire Spin
 - Fury Attack
 - Agility
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Ampharos
 Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Swift
 - Thunder Punch
 - Thunder Wave
 - Cotton Spore
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Miltank
 Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rollout
 - Attract
 - Stomp
 - Milk Drink
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Lanturn
 Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Surf
 - Ice Beam
 - Thunderbolt
 - Thunder Wave
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Gengar @ Leftovers
 Level: 70
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Shadow Ball
 - Psychic
 - Thunder Punch
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_BETH_3_HNS ===
 Name: BETH
@@ -16906,42 +16906,42 @@ AI: Check Bad Move / Try To Faint / Check Viability
 
 Rapidash
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Stomp
 - Fire Spin
 - Fury Attack
 - Agility
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Ampharos
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Swift
 - Thunder Punch
 - Thunder Wave
 - Cotton Spore
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Miltank
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Rollout
 - Attract
 - Stomp
 - Milk Drink
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Lanturn
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Surf
 - Ice Beam
 - Thunderbolt
 - Thunder Wave
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Gengar @ Leftovers
 Level: 75
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Shadow Ball
 - Psychic
 - Thunder Punch
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 === TRAINER_JOSE_2_HNS ===
 Name: JOSE
@@ -17869,20 +17869,20 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Poliwrath @ Life Orb
 Ability: Water Absorb  
 Level: 85
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Darkest Lariat  
 - Drain Punch  
 - Liquidation  
 - Power-Up Punch  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Huntail @ White Herb
 Ability: Water Veil  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Shell Smash  
 - Super Fang  
 - Waterfall  
 - Scary Face  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Lanturn @ Mystic Water
 Level: 86
@@ -17902,30 +17902,30 @@ Ability: Analytic
 Level: 86
 EVs: 140 HP / 204 Atk / 104 Def / 60 SpD  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dive  
 - Avalanche  
 - Curse  
 - Recover  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Seaking @ King's Rock
 Ability: Lightning Rod  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Drill Run  
 - Acupressure  
 - Scale Shot  
 - Tail Whip  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Golduck @ Scope Lens
 Ability: Cloud Nine  
 Level: 82
 Jolly Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Cross Chop  
 - Aqua Jet  
 - Shadow Claw  
 - Yawn  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Slowking @ Mystic Water
 Level: 86
@@ -17953,21 +17953,21 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Octillery @ Leftovers
 Ability: Moody  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Protect  
 - Octazooka  
 - Gunk Shot  
 - Rock Blast  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Mantine @ Assault Vest
 Ability: Water Absorb  
 Level: 86
 Careful Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Mirror Coat  
 - Seed Bomb  
 - Aqua Tail  
 - Rock Blast  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Lapras @ Mystic Water
 Level: 86
@@ -17985,20 +17985,20 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Tentacruel
 Ability: Liquid Ooze  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Gunk Shot  
 - Flip Turn  
 - Toxic Spikes  
 - Rapid Spin  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Gyarados
 Ability: Moxie  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Crunch  
 - Earthquake  
 - Rage  
 - Scary Face  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Kingdra @ Scope Lens
 Ability: Sniper  
@@ -18027,33 +18027,33 @@ Ability: Hydration
 Level: 85
 EVs: 252 Def / 248 Spe  
 Timid Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Scald  
 - Draining Kiss  
 - Bind  
 - Confuse Ray  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Luvdisc
 Ability: Swift Swim  
 Level: 85
 EVs: 252 Spe  
 Jolly Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Charm  
 - Captivate  
 - Flip Turn  
 - Wish  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Milotic (F)
 Ability: Cute Charm  
 Level: 86
 EVs: 248 Atk / 248 SpD  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Tickle  
 - Avalanche  
 - Aqua Tail  
 - Coil  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Golduck @ Mystic Water
 Level: 86
@@ -18092,11 +18092,11 @@ Kingler @ Life Orb
 Ability: Sheer Force  
 Level: 86
 EVs: 8 HP / 248 Atk / 252 SpD  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Crabhammer  
 - Hone Claws  
 - Dig  
 - Guillotine  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Quagsire @ Mystic Water
 Level: 86
@@ -18132,11 +18132,11 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Magmortar @ Eviolite
 Ability: Flame Body  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Flame Charge  
 - Substitute  
 - Focus Punch  
 - Double Team  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Rhyperior @ Hard Stone
 Level: 86
@@ -18163,20 +18163,20 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Pinsir @ Life Orb
 Ability: Moxie  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Storm Throw  
 - X-Scissor  
 - Guillotine  
 - Curse  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ludicolo
 Ability: Rain Dish  
 Level: 85
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Teeter Dance  
 - Scald  
 - Trailblaze  
 - Encore  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Ninetales @ Miracle Seed
 Level: 86
@@ -18194,20 +18194,20 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Swellow
 Ability: Scrappy  
 Level: 85
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Boomburst  
 - Brave Bird  
 - Roost  
 - Tailwind  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Beedrill @ Scope Lens
 Ability: Sniper  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Poison Jab  
 - Drill Run  
 - Outrage  
 - Fell Stinger  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Dustox
 Ability: Shield Dust  
@@ -18234,20 +18234,20 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Pinsir @ Life Orb
 Ability: Hyper Cutter  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Close Combat  
 - Double-Edge  
 - Outrage  
 - Rock Slide  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Scizor @ Eviolite
 Ability: Technician  
 Level: 85
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Psycho Cut  
 - Steel Wing  
 - Roost  
 - Bug Bite  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Venomoth
 Level: 85
@@ -18278,11 +18278,11 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Heracross @ Flame Orb
 Ability: Guts  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Facade  
 - Close Combat  
 - Throat Chop  
 - Megahorn  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Beedrill
 Level: 86
@@ -18304,29 +18304,29 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Primeape @ Flying Gem
 Ability: Vital Spirit  
 Level: 85
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Acrobatics  
 - Close Combat  
 - Taunt  
 - U-turn  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Tangrowth @ Leftovers
 Ability: Leaf Guard  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ingrain  
 - Power Whip  
 - Leech Seed  
 - Protect  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Tropius
 Ability: Harvest  
 Level: 84
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dragon Dance  
 - Dragon Hammer  
 - Petal Blizzard  
 - Safeguard  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Bellossom @ Miracle Seed
 Level: 85
@@ -18344,29 +18344,29 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Primeape
 Ability: Anger Point  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Cross Chop  
 - Curse  
 - Rage Fist  
 - Ice Punch  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Hariyama @ Loaded Dice
 Ability: Thick Fat  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Earthquake  
 - Arm Thrust  
 - Bulk Up  
 - Knock Off  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Machamp
 Ability: No Guard  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dynamic Punch  
 - Bullet Punch  
 - Bulk Up  
 - Dual Chop  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Raichu @ Sitrus Berry
 Level: 83
@@ -18385,26 +18385,26 @@ Kangaskhan
 Ability: Scrappy  
 Level: 84
 Happiness: 254  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Return  
 - Power-Up Punch  
 - Beat Up  
 - Disable  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Solrock
 Ability: Levitate  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ancient Power  
 - Acrobatics  
 - Flamethrower  
 - Reflect  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Lunatone @ Normal Gem
 Ability: Levitate  
 Level: 86
-- Explosion  
 IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
+- Explosion  
 
 Sandslash @ Hard Stone
 Level: 86
@@ -18440,11 +18440,11 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Miltank
 Ability: Thick Fat  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Retaliate  
 - Earthquake  
 - Heal Bell  
 - Milk Drink  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Clefable @ Miracle Seed
 Level: 85
@@ -18462,29 +18462,29 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Raticate-Alola
 Ability: Hustle  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Crunch  
 - Bulk Up  
 - Last Resort  
 - Quick Attack  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Scizor
 Ability: Technician  
 Level: 83
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Brutal Swing  
 - Bullet Punch  
 - Swords Dance  
 - Sand Tomb  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Leafeon @ Sitrus Berry
 Ability: Leaf Guard  
 Level: 85
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Leaf Blade  
 - Iron Tail  
 - Wish  
 - Detect  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Fearow @ Silk Scarf
 Level: 85
@@ -18502,20 +18502,20 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Mawile
 Ability: Intimidate  
 Level: 84
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Ice Fang  
 - Play Rough  
 - Stealth Rock  
 - Psychic Fangs  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Magmortar @ Sitrus Berry
 Ability: Flame Body  
 Level: 85
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Fire Punch  
 - Belly Drum  
 - Mach Punch  
 - Dual Chop  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Electivire @ Zoom Lens
 Ability: Motor Drive  
@@ -18543,30 +18543,30 @@ AI: Check Bad Move / Try To Faint / Check Viability
 Skarmory
 Ability: Keen Eye  
 Level: 83
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Iron Defense  
 - Autotomize  
 - Drill Peck  
 - Rock Slide  
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Primeape
 Ability: Anger Point  
 Level: 86
 Happiness: 0  
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Frustration  
 - Close Combat  
 - Lash Out  
 - Taunt  
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Tauros @ Life Orb
 Ability: Sheer Force  
 Level: 85
+IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 - Wild Charge  
 - Bulldoze  
 - Raging Bull  
 - Focus Energy  
-IVs: 25 HP / 25 Atk / 25 Def / 25 SpA / 25 SpD / 25 Spe
 
 Gyarados
 Level: 86
@@ -18623,11 +18623,11 @@ Ability: Chlorophyll
 Level: 86
 EVs: 4 HP / 252 Atk / 252 Def  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Leaf Blade  
 - Synthesis  
 - Iron Tail  
 - Yawn  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Umbreon
 Level: 86
@@ -18690,11 +18690,11 @@ Level: 86
 Happiness: 254   
 EVs: 124 HP / 252 Atk / 132 Def  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Skull Bash  
 - Iron Tail  
 - Curse  
 - Sing  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Milotic
 Level: 86
@@ -18806,11 +18806,11 @@ Ability: Intimidate
 Level: 86
 EVs: 252 Atk / 248 Spe  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dragon Dance  
 - Dragon Rush  
 - Crunch  
 - Temper Flare  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Kingdra @ Scope Lens
 Ability: Sniper  
@@ -18826,11 +18826,11 @@ IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 Exeggutor-Alola @ White Herb
 Ability: Frisk  
 Level: 86
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Light Screen  
 - Draco Meteor  
 - Outrage  
 - Seed Bomb  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_MUALANI_HNS ===
 Name: MUALANI
@@ -18889,11 +18889,11 @@ Ability: Swift Swim
 Level: 86
 EVs: 252 Atk / 252 Spe  
 Jolly Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Aqua Tail  
 - Shell Smash  
 - Crunch  
 - Ice Fang  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Pelipper @ Splash Plate
 Ability: Drizzle  
@@ -18919,11 +18919,11 @@ Dugtrio-Alola @ Focus Sash
 Ability: Sand Force  
 Level: 86
 EVs: 252 Atk / 252 Spe  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Earthquake  
 - Iron Head  
 - Stealth Rock  
 - Swords Dance  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Steelix @ Assault Vest
 Ability: Rock Head  
@@ -18941,33 +18941,33 @@ Ability: Technician
 Level: 86
 EVs: 172 HP / 124 Atk / 88 Def / 124 SpD  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Pounce  
 - Dual Wingbeat  
 - Iron Head  
 - Curse  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Aggron @ Loaded Dice
 Ability: Heavy Metal  
 Level: 86
 EVs: 108 HP / 252 Atk / 28 Def / 120 SpD  
 Relaxed Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Heavy Slam  
 - Body Press  
 - Iron Defense  
 - Rock Blast  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Perrserker @ Iron Plate
 Ability: Steely Spirit  
 Level: 86
 EVs: 248 HP / 252 Atk / 8 SpD  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Iron Tail  
 - Hone Claws  
 - Play Rough  
 - Trailblaze  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_SKYLAR_HNS ===
 Name: SKYLAR
@@ -18983,55 +18983,55 @@ Ability: Technician
 Level: 86
 EVs: 4 HP / 252 Atk / 252 Spe  
 Hasty Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Dual Wingbeat  
 - Close Combat  
 - Lunge  
 - Psycho Cut  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Gliscor @ Toxic Orb
 Ability: Poison Heal  
 Level: 86
 EVs: 124 Atk / 252 Def / 132 SpD  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Tailwind  
 - Fling  
 - Acrobatics  
 - Earthquake  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Crobat @ Big Root
 Ability: Inner Focus  
 Level: 86
 EVs: 252 HP / 252 Atk / 4 SpD  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Cross Poison  
 - Brave Bird  
 - Roost  
 - Leech Life  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Swellow @ Flame Orb
 Ability: Guts  
 Level: 86
 EVs: 252 Atk / 252 Spe  
 Adamant Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Facade  
 - Roost  
 - Steel Wing  
 - Tailwind  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 Fearow @ Scope Lens
 Ability: Sniper  
 Level: 86
 EVs: 252 Atk / 252 Spe  
 Naive Nature  
+IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 - Drill Run  
 - Focus Energy  
 - Drill Peck  
 - Double-Edge  
-IVs: 18 HP / 18 Atk / 18 Def / 18 SpA / 18 SpD / 18 Spe
 
 === TRAINER_FALKNER_POSTOBC_HNS ===
 Name: FALKNER
