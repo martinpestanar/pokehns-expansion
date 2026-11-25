@@ -2062,7 +2062,6 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
             {
                 u16 species = partyData[monIndex].species;
                 u8 monLevel = partyData[monIndex].lvl;
-                extern EWRAM_DATA bool8 gIsNpcRematchBoost;
                 #if RANDOMIZER_AVAILABLE == TRUE
                 species = RandomizeTrainerMon(trainer->trainerClass, i, monsCount, species);
                 #endif
@@ -2182,28 +2181,25 @@ u8 CreateNPCTrainerPartyFromTrainer(struct Pokemon *party, const struct Trainer 
             }
         }
 
+        if (gIsNpcRematchBoost)
         {
-            extern EWRAM_DATA bool8 gIsNpcRematchBoost;
-            if (gIsNpcRematchBoost)
+            u8 iv = MAX_PER_STAT_IVS;
+            u8 ev = 128;
+            for (i = 0; i < monsCount; i++)
             {
-                u8 iv = MAX_PER_STAT_IVS;
-                u8 ev = 128;
-                for (i = 0; i < monsCount; i++)
-                {
-                    for (u32 j = 0; j < NUM_STATS; j++)
-                        SetMonData(&party[i], MON_DATA_HP_IV + j, &iv);
-                    SetMonData(&party[i], MON_DATA_HP_EV, &ev);
-                    SetMonData(&party[i], MON_DATA_SPEED_EV, &ev);
-                    if (GetMonData(&party[i], MON_DATA_ATK) > GetMonData(&party[i], MON_DATA_SPATK))
-                        SetMonData(&party[i], MON_DATA_ATK_EV, &ev);
-                    else
-                        SetMonData(&party[i], MON_DATA_SPATK_EV, &ev);
-                    if (GetMonData(&party[i], MON_DATA_DEF) > GetMonData(&party[i], MON_DATA_SPDEF))
-                        SetMonData(&party[i], MON_DATA_DEF_EV, &ev);
-                    else
-                        SetMonData(&party[i], MON_DATA_SPDEF_EV, &ev);
-                    CalculateMonStats(&party[i]);
-                }
+                for (u32 j = 0; j < NUM_STATS; j++)
+                    SetMonData(&party[i], MON_DATA_HP_IV + j, &iv);
+                SetMonData(&party[i], MON_DATA_HP_EV, &ev);
+                SetMonData(&party[i], MON_DATA_SPEED_EV, &ev);
+                if (GetMonData(&party[i], MON_DATA_ATK) > GetMonData(&party[i], MON_DATA_SPATK))
+                    SetMonData(&party[i], MON_DATA_ATK_EV, &ev);
+                else
+                    SetMonData(&party[i], MON_DATA_SPATK_EV, &ev);
+                if (GetMonData(&party[i], MON_DATA_DEF) > GetMonData(&party[i], MON_DATA_SPDEF))
+                    SetMonData(&party[i], MON_DATA_DEF_EV, &ev);
+                else
+                    SetMonData(&party[i], MON_DATA_SPDEF_EV, &ev);
+                CalculateMonStats(&party[i]);
             }
         }
     }
