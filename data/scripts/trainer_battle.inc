@@ -15,10 +15,20 @@ EventScript_TryDoNormalTrainerBattle::
 	waitmovement 0
 	clearflag FLAG_SAFE_FOLLOWER_MOVEMENT
 	specialvar VAR_RESULT, GetTrainerFlag
-	goto_if_ne VAR_RESULT, FALSE, EventScript_NoNormalTrainerBattle
+	goto_if_ne VAR_RESULT, FALSE, EventScript_CheckNpcRematchSingle
 	special PlayTrainerEncounterMusic
 	special SetTrainerFacingDirection
 	goto EventScript_ShowTrainerIntroMsg
+
+EventScript_CheckNpcRematchSingle::
+	specialvar VAR_RESULT, CanTrainerBeRematchedAnywhere
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NoNormalTrainerBattle
+	msgbox Text_NpcRematchPrompt, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_NoNormalTrainerBattle
+	special SetNpcRematchBoost
+	special PlayTrainerEncounterMusic
+	special SetTrainerFacingDirection
+	goto EventScript_DoTrainerBattle
 
 EventScript_NoNormalTrainerBattle::
 	gotopostbattlescript
@@ -28,12 +38,24 @@ EventScript_TryDoDoubleTrainerBattle::
 	faceplayer
 	call EventScript_RevealTrainer
 	specialvar VAR_RESULT, GetTrainerFlag
-	goto_if_ne VAR_RESULT, FALSE, EventScript_NoDoubleTrainerBattle
+	goto_if_ne VAR_RESULT, FALSE, EventScript_CheckNpcRematchDouble
 	special HasEnoughMonsForDoubleBattle
 	goto_if_ne VAR_RESULT, PLAYER_HAS_TWO_USABLE_MONS, EventScript_NotEnoughMonsForDoubleBattle
 	special PlayTrainerEncounterMusic
 	special SetTrainerFacingDirection
 	goto EventScript_ShowTrainerIntroMsg
+
+EventScript_CheckNpcRematchDouble::
+	specialvar VAR_RESULT, CanTrainerBeRematchedAnywhere
+	goto_if_eq VAR_RESULT, FALSE, EventScript_NoDoubleTrainerBattle
+	msgbox Text_NpcRematchPrompt, MSGBOX_YESNO
+	goto_if_eq VAR_RESULT, NO, EventScript_NoDoubleTrainerBattle
+	special HasEnoughMonsForDoubleBattle
+	goto_if_ne VAR_RESULT, PLAYER_HAS_TWO_USABLE_MONS, EventScript_NotEnoughMonsForDoubleBattle
+	special SetNpcRematchBoost
+	special PlayTrainerEncounterMusic
+	special SetTrainerFacingDirection
+	goto EventScript_DoTrainerBattle
 
 EventScript_NotEnoughMonsForDoubleBattle::
 	special ShowTrainerCantBattleSpeech
@@ -135,3 +157,7 @@ Std_MsgboxAutoclose::
 	waitbuttonpress
 	release
 	return
+
+Text_NpcRematchPrompt::
+	.string "I've trained my Pokémon much harder!\n"
+	.string "Want to battle again?$"

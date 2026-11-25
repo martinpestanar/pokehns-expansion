@@ -73,6 +73,8 @@ gSpecials::
 	def_special ShowTrainerIntroSpeech
 	def_special ShowTrainerCantBattleSpeech
 	def_special GetTrainerFlag
+	def_special CanTrainerBeRematchedAnywhere
+	def_special SetNpcRematchBoost
 	def_special DoTrainerApproach
 	def_special PlayTrainerEncounterMusic
 	def_special ShouldTryRematchBattle

@@ -1551,6 +1551,52 @@ bool8 GetTrainerFlag(void)
         return FlagGet(GetTrainerAFlag());
 }
 
+EWRAM_DATA bool8 gIsNpcRematchBoost = FALSE;
+
+bool8 CanTrainerBeRematchedAnywhere(void)
+{
+    u16 trainerId = TRAINER_BATTLE_PARAM.opponentA;
+    u8 mode = TRAINER_BATTLE_PARAM.mode;
+    u8 trainerClass;
+
+    if (CurrentBattlePyramidLocation() != PYRAMID_LOCATION_NONE || InTrainerHill())
+        return FALSE;
+    if (trainerId == TRAINER_NONE || trainerId == TRAINER_SECRET_BASE)
+        return FALSE;
+    if (mode != TRAINER_BATTLE_SINGLE && mode != TRAINER_BATTLE_DOUBLE)
+        return FALSE;
+
+    trainerClass = GetTrainerClassFromId(trainerId);
+    switch (trainerClass)
+    {
+    case TRAINER_CLASS_LEADER_HNS:
+    case TRAINER_CLASS_LEADER_KANTO_HNS:
+    case TRAINER_CLASS_ELITE_FOUR_HNS:
+    case TRAINER_CLASS_CHAMPION_HNS:
+    case TRAINER_CLASS_RIVAL_HNS:
+    case TRAINER_CLASS_ROCKET_ADMIN_HNS:
+    case TRAINER_CLASS_PKMN_TRAINER_1_HNS:
+    case TRAINER_CLASS_MYSTERY_MAN_HNS:
+    case TRAINER_CLASS_PROFESSOR_HNS:
+    case TRAINER_CLASS_DEVELOPER_HNS:
+    case TRAINER_CLASS_ARENA_TYCOON_HNS:
+    case TRAINER_CLASS_DOME_ACE_HNS:
+    case TRAINER_CLASS_FACTORY_HEAD_HNS:
+    case TRAINER_CLASS_PALACE_MAVEN_HNS:
+    case TRAINER_CLASS_PIKE_QUEEN_HNS:
+    case TRAINER_CLASS_SALON_MAIDEN_HNS:
+    case TRAINER_CLASS_PYRAMID_KING_HNS:
+        return FALSE;
+    default:
+        return TRUE;
+    }
+}
+
+void SetNpcRematchBoost(void)
+{
+    gIsNpcRematchBoost = TRUE;
+}
+
 static void SetBattledTrainersFlags(void)
 {
     if (TRAINER_BATTLE_PARAM.opponentB != 0)
@@ -1711,6 +1757,7 @@ static void CB2_EndTrainerBattle(void)
     HandleBattleVariantEndParty();
 
     gIsDebugBattle = FALSE;
+    gIsNpcRematchBoost = FALSE;
     if (FollowerNPCIsBattlePartner())
     {
         RestorePartyAfterFollowerNPCBattle();
